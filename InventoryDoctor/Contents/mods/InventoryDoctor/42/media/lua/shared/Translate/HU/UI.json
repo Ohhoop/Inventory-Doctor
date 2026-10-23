@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Mező",
+    "UI_InventoryDoctor_ColContainer": "Tároló",
+    "UI_InventoryDoctor_ColName": "Név",
+    "UI_InventoryDoctor_ColItem": "Tárgy",
+    "UI_InventoryDoctor_ColCondition": "Állapot",
+    "UI_InventoryDoctor_ColWeight": "Súly",
+    "UI_InventoryDoctor_ColActions": "Műveletek",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Az állapota 0 alatt van.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "A súlya negatív.",
+    "UI_InventoryDoctor_AlertIcon": "Az ikonja nem található.",
+    "UI_InventoryDoctor_AlertErrors": "A játék hibát jelez az olvasásakor.",
+    "UI_InventoryDoctor_ConfirmReset": "Lecseréled ezt a tárgyat egy újra?\n%1\nA jelenlegi állapota elvész.",
+    "UI_InventoryDoctor_ConfirmDelete": "Törlöd ezt a tárgyat?\n%1\nEz nem vonható vissza.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Ez egy tároló: minden, ami benne van, elvész.",
+    "UI_InventoryDoctor_ConfirmFluid": "Folyadék van benne: a folyadék elvész.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Viselve vagy kézben van: előbb leveszi.",
+    "UI_InventoryDoctor_TooltipReset": "Lecseréli ezt a tárgyat egy újra.",
+    "UI_InventoryDoctor_TooltipDelete": "Törli ezt a tárgyat."
+}

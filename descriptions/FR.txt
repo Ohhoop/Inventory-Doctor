@@ -1,0 +1,58 @@
+[h2]Ce que c'est[/h2]
+Inventory Doctor est un outil de développement et de débogage. Il vous permet de voir ce qui se trouve réellement dans chaque conteneur autour de votre personnage, et de réparer les objets qui sont cassés : objets sans icône, objets avec un poids négatif, objets coincés dans votre inventaire qui ne peuvent être ni lâchés ni déplacés, objets sur lesquels le jeu génère des erreurs, etc.
+
+Si vous cherchez un outil pour déboguer des meubles ou des tuiles cassés, jetez un œil à [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Comment ça marche[/h2]
+Faites un clic droit n'importe où et choisissez Inventory Doctor. Une fenêtre s'ouvre avec un tableau de chaque objet dans chaque conteneur sur les 9 cases autour de votre personnage, et un contour jaune indique la zone analysée dans le monde. Le tableau vous suit pendant vos déplacements.
+
+Il examine :
+- Votre inventaire et les sacs que vous portez
+- Les conteneurs des meubles : réfrigérateurs, étagères, caisses, etc.
+- Les objets au sol
+- Les cadavres
+- Les coffres, boîtes à gants et sièges des véhicules
+- En multijoueur, pour les admins, les autres joueurs présents dans la zone
+
+Les sacs sont ouverts aussi, à n'importe quelle profondeur.
+
+Pour chaque objet, il affiche :
+- La case sur laquelle il se trouve
+- Son nom et son type d'objet
+- Son état
+- Son poids
+- Le conteneur qui le contient, avec le chemin complet quand il se trouve dans un sac (par exemple Réfrigérateur > Sac)
+- Un symbole d'alerte rouge quand quelque chose semble cassé (état inférieur à 0, poids négatif, icône manquante, erreurs quand le jeu le lit). La détection n'est pas parfaite : un objet signalé peut être correct et un objet cassé peut passer inaperçu, elle sert seulement à trouver le problème plus vite.
+
+Survolez une ligne pour faire apparaître le contour de ce qui contient cet objet dans le monde : le meuble, le cadavre, le véhicule, l'objet au sol ou le joueur. Attention : un contour peut être masqué lorsqu'un mur ou autre chose bloque la vue entre vous et lui.
+
+Actions possibles sur chaque ligne :
+- Supprimer : retire cet objet, et lui seul. Un objet porté ou tenu en main est d'abord enlevé.
+- Réinitialiser : remplace l'objet par un objet neuf du même type, au même endroit. Tout ce qu'il contenait est perdu : le contenu d'un sac, le liquide d'une bouteille.
+
+Les meubles eux-mêmes ne sont jamais supprimés ni réinitialisés, seulement les objets qu'ils contiennent.
+
+[h2]Important[/h2]
+Ceci est un outil de débogage : supprimer ou réinitialiser des objets est irréversible. Utilisez-le en connaissance de cause, et gardez une sauvegarde de votre partie si vous avez un doute.
+
+Je n'ai évidemment pas pu tester tous les scénarios possibles : ce jeu compte un nombre ridicule d'objets, et c'est sans même parler des mods. Si quelque chose ne se comporte pas comme prévu, une réinitialisation qui tourne mal, un objet qui devrait être signalé et ne l'est pas, ou quoi que ce soit d'autre, faites-le-moi savoir dans les commentaires et je ferai de mon mieux pour le prendre en charge.
+
+[h2]Questions et réponses[/h2]
+Q : Est-ce que je peux l'ajouter ou le retirer en cours de partie ?
+A : Oui. Inventory Doctor n'enregistre rien dans votre monde : il est conçu pour être ajouté, corriger l'objet cassé, puis être retiré.
+
+Q : Est-ce que ça fonctionne en multijoueur ?
+A : Oui. En solo, tout le monde peut l'utiliser. En multijoueur, il est réservé aux admins, et chaque action est vérifiée par le serveur.
+
+Q : Peut-il récupérer les objets d'un mod que j'ai retiré ?
+A : Non. Au chargement d'une sauvegarde, le jeu lui-même supprime chaque objet dont le mod n'est plus installé, ils n'arrivent donc jamais jusqu'à Inventory Doctor.
+
+Q : J'ai trouvé un cas qu'il ne gère pas, que dois-je faire ?
+A : Postez-le dans les commentaires avec les colonnes Nom et Objet de la ligne concernée, le mod dont il provient selon vous le cas échéant et, si possible, l'erreur de votre console.txt (dans C:\Users\VotreNom\Zomboid).
+
+N'hésitez pas à partager vos retours, rapports de bugs et idées dans les commentaires, je lis tout.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

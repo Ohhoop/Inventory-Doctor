@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Strewberrie",
+    "UI_InventoryDoctor_ColContainer": "Strewberrie",
+    "UI_InventoryDoctor_ColName": "Strewberrie",
+    "UI_InventoryDoctor_ColItem": "Strewberrie",
+    "UI_InventoryDoctor_ColCondition": "Strewberrie",
+    "UI_InventoryDoctor_ColWeight": "Strewberrie",
+    "UI_InventoryDoctor_ColActions": "Strewberrie",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Strewberrie Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Strewberrie Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_AlertIcon": "Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_AlertErrors": "Strewberrie Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_ConfirmReset": "Strewberrie Strewberrie?\n%1\nStrewberrie Strewberrie.",
+    "UI_InventoryDoctor_ConfirmDelete": "Strewberrie Strewberrie?\n%1\nStrewberrie Strewberrie.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Strewberrie Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_ConfirmFluid": "Strewberrie Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Strewberrie Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_TooltipReset": "Strewberrie Strewberrie.",
+    "UI_InventoryDoctor_TooltipDelete": "Strewberrie Strewberrie."
+}

@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Dlaždice",
+    "UI_InventoryDoctor_ColContainer": "Kontejner",
+    "UI_InventoryDoctor_ColName": "Název",
+    "UI_InventoryDoctor_ColItem": "Předmět",
+    "UI_InventoryDoctor_ColCondition": "Stav",
+    "UI_InventoryDoctor_ColWeight": "Hmotnost",
+    "UI_InventoryDoctor_ColActions": "Akce",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Jeho stav je pod 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Jeho hmotnost je záporná.",
+    "UI_InventoryDoctor_AlertIcon": "Jeho ikonu nelze najít.",
+    "UI_InventoryDoctor_AlertErrors": "Hra při jeho čtení hlásí chyby.",
+    "UI_InventoryDoctor_ConfirmReset": "Nahradit tento předmět novým?\n%1\nJeho současný stav bude ztracen.",
+    "UI_InventoryDoctor_ConfirmDelete": "Smazat tento předmět?\n%1\nTuto akci nelze vrátit.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Je to kontejner: vše uvnitř bude ztraceno.",
+    "UI_InventoryDoctor_ConfirmFluid": "Obsahuje tekutinu: tekutina bude ztracena.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Je nošený nebo držený: nejprve bude sundán.",
+    "UI_InventoryDoctor_TooltipReset": "Nahradí tento předmět novým.",
+    "UI_InventoryDoctor_TooltipDelete": "Smaže tento předmět."
+}

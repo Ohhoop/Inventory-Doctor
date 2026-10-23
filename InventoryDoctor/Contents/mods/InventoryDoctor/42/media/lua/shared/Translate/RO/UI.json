@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Pătrat",
+    "UI_InventoryDoctor_ColContainer": "Container",
+    "UI_InventoryDoctor_ColName": "Nume",
+    "UI_InventoryDoctor_ColItem": "Obiect",
+    "UI_InventoryDoctor_ColCondition": "Stare",
+    "UI_InventoryDoctor_ColWeight": "Greutate",
+    "UI_InventoryDoctor_ColActions": "Acțiuni",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Starea lui este sub 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Greutatea lui este negativă.",
+    "UI_InventoryDoctor_AlertIcon": "Pictograma lui nu poate fi găsită.",
+    "UI_InventoryDoctor_AlertErrors": "Jocul dă erori când îl citește.",
+    "UI_InventoryDoctor_ConfirmReset": "Înlocuiești acest obiect cu unul nou?\n%1\nStarea lui actuală se va pierde.",
+    "UI_InventoryDoctor_ConfirmDelete": "Ștergi acest obiect?\n%1\nAcțiunea nu poate fi anulată.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Este un container: tot ce este înăuntru se va pierde.",
+    "UI_InventoryDoctor_ConfirmFluid": "Conține un lichid: lichidul se va pierde.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Este purtat sau ținut în mână: va fi scos mai întâi.",
+    "UI_InventoryDoctor_TooltipReset": "Înlocuiește acest obiect cu unul nou.",
+    "UI_InventoryDoctor_TooltipDelete": "Șterge acest obiect."
+}

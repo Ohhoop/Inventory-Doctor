@@ -1,0 +1,58 @@
+[h2]Nedir[/h2]
+Inventory Doctor bir geliştirme ve hata ayıklama aracıdır. Karakterinizin etrafındaki her kabın içinde gerçekte ne bulunduğunu görmenizi ve bozuk eşyaları düzeltmenizi sağlar: simgesi olmayan eşyalar, ağırlığı negatif olan eşyalar, envanterinizde takılı kalan, bırakılamayan veya taşınamayan eşyalar, oyunun hata verdiği eşyalar vb.
+
+Bozuk mobilyaları veya kareleri ayıklamak için bir araç arıyorsanız [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url]'a göz atın.
+
+[h2]Nasıl çalışır[/h2]
+Herhangi bir yere sağ tıklayın ve Inventory Doctor'ı seçin. Karakterinizin etrafındaki 9 karede bulunan tüm kaplardaki her eşyanın tablosunu içeren bir pencere açılır ve sarı bir çerçeve dünyada taranan alanı gösterir. Tablo siz hareket ettikçe sizi takip eder.
+
+Şuralara bakar:
+- Envanteriniz ve taşıdığınız çantalar
+- Mobilya kapları: buzdolapları, raflar, sandıklar vb.
+- Yerdeki eşyalar
+- Cesetler
+- Araçların bagajları, torpido gözleri ve koltukları
+- Çok oyunculu modda, yöneticiler için, alanda duran diğer oyuncular
+
+Çantalar da ne kadar iç içe olursa olsun açılır.
+
+Her eşya için şunları gösterir:
+- Bulunduğu kare
+- Adı ve eşya türü
+- Durumu
+- Ağırlığı
+- Onu barındıran kap, bir çantanın içindeyse tam yoluyla birlikte (örneğin Buzdolabı > Çanta)
+- Bir şey bozuk göründüğünde kırmızı bir uyarı simgesi (0'ın altında durum, negatif ağırlık, eksik simge, oyun onu okurken çıkan hatalar). Tespit kusursuz değildir: işaretlenen bir eşya sorunsuz olabilir, bozuk bir eşya da gözden kaçabilir; yalnızca sorunu daha hızlı bulmanıza yardımcı olur.
+
+Bir satırın üzerine gelerek o eşyayı barındıran şeyi dünyada çerçeveleyin: mobilya, ceset, araç, yerdeki eşya veya oyuncu. Dikkat: sizinle o şey arasında bir duvar veya başka bir şey görüşü engellediğinde çerçeve gizlenebilir.
+
+Her satırda yapılabilecek işlemler:
+- Sil: yalnızca o eşyayı kaldırır. Giyilen veya elde tutulan bir eşya önce çıkarılır.
+- Sıfırla: eşyayı aynı yerde, aynı türden yepyeni bir eşyayla değiştirir. İçinde tuttuğu her şey kaybolur: bir çantanın içindekiler, bir şişedeki sıvı.
+
+Mobilyanın kendisi asla silinmez veya sıfırlanmaz, yalnızca içindeki eşyalar.
+
+[h2]Önemli[/h2]
+Bu bir hata ayıklama aracıdır: eşyaları silmek veya sıfırlamak geri alınamaz. Bilinçli kullanın ve emin değilseniz kaydınızın bir yedeğini alın.
+
+Elbette her senaryoyu test edemedim: bu oyunda inanılmaz sayıda eşya var, modlardan bahsetmiyorum bile. Bir şey beklendiği gibi davranmazsa, ters giden bir sıfırlama, işaretlenmesi gerekirken işaretlenmeyen bir eşya ya da başka bir şey olursa, lütfen yorumlar bölümünde bana bildirin, ele almak için elimden geleni yapacağım.
+
+[h2]Soru ve Cevap[/h2]
+Q: Kayıt ortasında eklemek veya kaldırmak güvenli mi?
+A: Evet. Inventory Doctor dünyana hiçbir şey kaydetmez: eklenmek, bozuk eşyayı düzeltmek ve kaldırılmak için tasarlandı.
+
+Q: Çok oyunculu modda çalışıyor mu?
+A: Evet. Tek oyunculu modda herkes kullanabilir. Çok oyunculu modda yöneticilere ayrılmıştır ve her işlem sunucu tarafından denetlenir.
+
+Q: Kaldırdığım bir modun eşyalarını geri getirebilir mi?
+A: Hayır. Bir kayıt yüklendiğinde, modu artık yüklü olmayan tüm eşyaları oyunun kendisi siler, bu yüzden bu eşyalar Inventory Doctor'a hiç ulaşmaz.
+
+Q: Ele almadığı bir durum buldum, ne yapmalıyım?
+A: Yorumlar bölümüne ilgili satırın "Ad" ve "Eşya" sütunlarıyla, varsa geldiğini düşündüğünüz modla ve mümkünse console.txt dosyanızdaki hatayla (C:\Users\KullanıcıAdınız\Zomboid içinde) birlikte yazın.
+
+Geri bildirimlerinizi, hata raporlarınızı ve fikirlerinizi yorumlar bölümünde paylaşmaktan çekinmeyin, her şeyi okuyorum.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

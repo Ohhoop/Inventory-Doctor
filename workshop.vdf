@@ -1,0 +1,10 @@
+"workshopitem"
+{
+	"appid"		"108600"
+	"publishedfileid"		"3820498836"
+	"title"		"Inventory Doctor [B42.21]"
+	"visibility"		"0"
+	"contentfolder"		"InventoryDoctor/Contents"
+	"previewfile"		"images/id-thumb-512.gif"
+	"changenote"		"1.0.2: Condition 0 is no longer flagged, a condition below 0 is"
+}

@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Felt",
+    "UI_InventoryDoctor_ColContainer": "Beholder",
+    "UI_InventoryDoctor_ColName": "Navn",
+    "UI_InventoryDoctor_ColItem": "Genstand",
+    "UI_InventoryDoctor_ColCondition": "Tilstand",
+    "UI_InventoryDoctor_ColWeight": "Vægt",
+    "UI_InventoryDoctor_ColActions": "Handlinger",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Dens tilstand er under 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Dens vægt er negativ.",
+    "UI_InventoryDoctor_AlertIcon": "Dens ikon kan ikke findes.",
+    "UI_InventoryDoctor_AlertErrors": "Spillet giver fejl, når det læser den.",
+    "UI_InventoryDoctor_ConfirmReset": "Erstat denne genstand med en ny?\n%1\nDens nuværende tilstand går tabt.",
+    "UI_InventoryDoctor_ConfirmDelete": "Slet denne genstand?\n%1\nDette kan ikke fortrydes.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Det er en beholder: alt indeni vil gå tabt.",
+    "UI_InventoryDoctor_ConfirmFluid": "Den indeholder en væske: væsken går tabt.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Den er påtaget eller holdt: den tages af først.",
+    "UI_InventoryDoctor_TooltipReset": "Erstatter denne genstand med en ny.",
+    "UI_InventoryDoctor_TooltipDelete": "Sletter denne genstand."
+}

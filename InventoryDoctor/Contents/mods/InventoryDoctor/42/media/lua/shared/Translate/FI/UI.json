@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Ruutu",
+    "UI_InventoryDoctor_ColContainer": "Säiliö",
+    "UI_InventoryDoctor_ColName": "Nimi",
+    "UI_InventoryDoctor_ColItem": "Esine",
+    "UI_InventoryDoctor_ColCondition": "Kunto",
+    "UI_InventoryDoctor_ColWeight": "Paino",
+    "UI_InventoryDoctor_ColActions": "Toiminnot",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Sen kunto on alle 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Sen paino on negatiivinen.",
+    "UI_InventoryDoctor_AlertIcon": "Sen kuvaketta ei löydy.",
+    "UI_InventoryDoctor_AlertErrors": "Peli antaa virheitä lukiessaan sitä.",
+    "UI_InventoryDoctor_ConfirmReset": "Korvataanko tämä esine uudella?\n%1\nSen nykyinen tila menetetään.",
+    "UI_InventoryDoctor_ConfirmDelete": "Poistetaanko tämä esine?\n%1\nTätä ei voi perua.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Se on säiliö: kaikki sen sisällä menetetään.",
+    "UI_InventoryDoctor_ConfirmFluid": "Siinä on nestettä: neste menetetään.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Se on puettuna tai kädessä: se riisutaan ensin.",
+    "UI_InventoryDoctor_TooltipReset": "Korvaa tämän esineen uudella.",
+    "UI_InventoryDoctor_TooltipDelete": "Poistaa tämän esineen."
+}

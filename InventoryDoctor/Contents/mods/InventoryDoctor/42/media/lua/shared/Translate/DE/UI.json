@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Feld",
+    "UI_InventoryDoctor_ColContainer": "Behälter",
+    "UI_InventoryDoctor_ColName": "Name",
+    "UI_InventoryDoctor_ColItem": "Gegenstand",
+    "UI_InventoryDoctor_ColCondition": "Zustand",
+    "UI_InventoryDoctor_ColWeight": "Gewicht",
+    "UI_InventoryDoctor_ColActions": "Aktionen",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Sein Zustand liegt unter 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Sein Gewicht ist negativ.",
+    "UI_InventoryDoctor_AlertIcon": "Sein Symbol wurde nicht gefunden.",
+    "UI_InventoryDoctor_AlertErrors": "Das Spiel wirft beim Lesen Fehler.",
+    "UI_InventoryDoctor_ConfirmReset": "Diesen Gegenstand durch einen neuen ersetzen?\n%1\nSein aktueller Zustand geht verloren.",
+    "UI_InventoryDoctor_ConfirmDelete": "Diesen Gegenstand löschen?\n%1\nDas kann nicht rückgängig gemacht werden.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Es ist ein Behälter: alles darin geht verloren.",
+    "UI_InventoryDoctor_ConfirmFluid": "Er enthält eine Flüssigkeit: die Flüssigkeit geht verloren.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Er wird getragen oder gehalten: er wird zuerst abgelegt.",
+    "UI_InventoryDoctor_TooltipReset": "Ersetzt diesen Gegenstand durch einen neuen.",
+    "UI_InventoryDoctor_TooltipDelete": "Löscht diesen Gegenstand."
+}

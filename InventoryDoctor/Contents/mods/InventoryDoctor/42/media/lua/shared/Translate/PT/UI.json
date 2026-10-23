@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Quadrado",
+    "UI_InventoryDoctor_ColContainer": "Contentor",
+    "UI_InventoryDoctor_ColName": "Nome",
+    "UI_InventoryDoctor_ColItem": "Objeto",
+    "UI_InventoryDoctor_ColCondition": "Estado",
+    "UI_InventoryDoctor_ColWeight": "Peso",
+    "UI_InventoryDoctor_ColActions": "Ações",
+    "UI_InventoryDoctor_AlertNegativeCondition": "O seu estado está abaixo de 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "O seu peso é negativo.",
+    "UI_InventoryDoctor_AlertIcon": "O seu ícone não foi encontrado.",
+    "UI_InventoryDoctor_AlertErrors": "O jogo gera erros ao lê-lo.",
+    "UI_InventoryDoctor_ConfirmReset": "Substituir este objeto por um novo?\n%1\nO seu estado atual será perdido.",
+    "UI_InventoryDoctor_ConfirmDelete": "Eliminar este objeto?\n%1\nNão é possível anular.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "É um contentor: tudo o que tem dentro será perdido.",
+    "UI_InventoryDoctor_ConfirmFluid": "Contém um líquido: o líquido será perdido.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Está vestido ou na mão: será retirado primeiro.",
+    "UI_InventoryDoctor_TooltipReset": "Substitui este objeto por um novo.",
+    "UI_InventoryDoctor_TooltipDelete": "Elimina este objeto."
+}

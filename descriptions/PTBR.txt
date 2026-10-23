@@ -1,0 +1,58 @@
+[h2]O que é[/h2]
+O Inventory Doctor é uma ferramenta de desenvolvimento e depuração. Ele permite ver o que realmente está dentro de cada contêiner ao redor do seu personagem e consertar os itens que estão quebrados: itens sem ícone, itens com peso negativo, itens presos no seu inventário que não podem ser soltos nem movidos, itens que fazem o jogo dar erro, etc.
+
+Se você está procurando uma ferramenta para depurar móveis ou tiles quebrados, confira o [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Como funciona[/h2]
+Clique com o botão direito em qualquer lugar e escolha Inventory Doctor. Abre uma janela com uma tabela de todos os itens de todos os contêineres nos 9 tiles ao redor do seu personagem, e um contorno amarelo mostra a área analisada no mundo. A tabela acompanha você enquanto se move.
+
+Ela procura em:
+- Seu inventário e as bolsas que você carrega
+- Contêineres de móveis: geladeiras, prateleiras, caixotes, etc.
+- Itens no chão
+- Cadáveres
+- Porta-malas, porta-luvas e bancos de veículos
+- No multiplayer, para admins, os outros jogadores que estiverem na área
+
+As bolsas também são abertas, em qualquer nível.
+
+Para cada item, ela mostra:
+- O tile em que ele está
+- O nome e o tipo de item
+- A condição
+- O peso
+- O contêiner que o guarda, com o caminho completo quando ele está dentro de uma bolsa (por exemplo Geladeira > Bolsa)
+- Um símbolo de alerta vermelho quando algo parece quebrado (condição abaixo de 0, peso negativo, ícone faltando, erros quando o jogo o lê). A detecção não é perfeita: um item marcado pode estar normal e um quebrado pode passar despercebido, ela só serve para ajudar a encontrar o problema mais rápido.
+
+Passe o mouse sobre uma linha para destacar no mundo o que guarda esse item: o móvel, o cadáver, o veículo, o item no chão ou o jogador. Cuidado: o contorno pode ficar escondido quando uma parede ou outra coisa bloqueia a visão entre você e ele.
+
+Ações possíveis em cada linha:
+- Excluir: remove só aquele item. Um item vestido ou na mão é retirado antes.
+- Redefinir: substitui o item por um novinho do mesmo tipo, no mesmo lugar. Tudo o que ele continha é perdido: o conteúdo de uma bolsa, o líquido de uma garrafa.
+
+Os móveis em si nunca são excluídos nem redefinidos, só os itens dentro deles.
+
+[h2]Importante[/h2]
+Esta é uma ferramenta de depuração: excluir ou redefinir itens não pode ser desfeito. Use com consciência e, se estiver em dúvida, faça um backup do seu save.
+
+Obviamente não consegui testar todos os cenários possíveis: existe uma quantidade absurda de itens neste jogo, e isso sem nem falar dos mods. Se algo não se comportar como esperado, uma redefinição que dá errado, um item que deveria ser sinalizado e não é, ou qualquer outra coisa, me avise na seção de comentários e vou fazer o possível para resolver.
+
+[h2]Perguntas e respostas[/h2]
+Q: É seguro adicionar ou remover no meio de um save?
+A: Sim. O Inventory Doctor não salva nada no seu mundo: ele foi feito para ser adicionado, corrigir o item quebrado e ser removido.
+
+Q: Funciona no multiplayer?
+A: Sim. No single player qualquer um pode usar. No multiplayer é exclusivo para admins, e cada ação é verificada pelo servidor.
+
+Q: Dá para recuperar itens de um mod que eu removi?
+A: Não. Quando um save é carregado, o próprio jogo descarta todos os itens cujo mod não está mais instalado, então eles nunca chegam ao Inventory Doctor.
+
+Q: Encontrei um caso que ele não trata, o que eu faço?
+A: Poste na seção de comentários com as colunas "Nome" e "Item" da linha em questão, o mod de onde você acha que ele vem, se for o caso, e, se possível, o erro do seu console.txt (em C:\Users\SeuNome\Zomboid).
+
+Fique à vontade para compartilhar feedback, relatos de bugs e ideias na seção de comentários, eu leio tudo.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

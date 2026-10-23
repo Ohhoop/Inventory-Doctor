@@ -1,0 +1,58 @@
+[h2]Đây là gì[/h2]
+Inventory Doctor là một công cụ phát triển và gỡ lỗi. Nó cho phép bạn xem những gì thật sự nằm trong mọi thùng chứa quanh nhân vật và sửa những vật phẩm bị lỗi: vật phẩm không có biểu tượng, vật phẩm có trọng lượng âm, vật phẩm bị kẹt trong hành trang không thể vứt hay di chuyển, vật phẩm khiến trò chơi báo lỗi, v.v.
+
+Nếu bạn đang tìm một công cụ để gỡ lỗi đồ nội thất hoặc ô bị lỗi, hãy xem thử [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Cách hoạt động[/h2]
+Nhấp chuột phải ở bất kỳ đâu và chọn Inventory Doctor. Một cửa sổ mở ra với bảng liệt kê mọi vật phẩm trong mọi thùng chứa trên 9 ô quanh nhân vật, và một đường viền vàng hiển thị vùng được quét trong thế giới. Bảng sẽ cập nhật theo khi bạn di chuyển.
+
+Nó tìm trong:
+- Hành trang của bạn và các túi bạn mang theo
+- Thùng chứa của đồ nội thất: tủ lạnh, kệ, thùng gỗ, v.v.
+- Vật phẩm trên mặt đất
+- Xác chết
+- Cốp xe, hộc đựng găng tay và ghế của phương tiện
+- Trong chế độ nhiều người chơi, với quản trị viên, những người chơi khác đang đứng trong khu vực
+
+Các túi cũng được mở ra, dù lồng nhau sâu đến đâu.
+
+Với mỗi vật phẩm, nó hiển thị:
+- Ô mà nó đang nằm
+- Tên và loại vật phẩm
+- Tình trạng
+- Trọng lượng
+- Thùng chứa đang giữ nó, kèm đường dẫn đầy đủ khi nó nằm trong túi (ví dụ Tủ lạnh > Túi)
+- Biểu tượng cảnh báo đỏ khi có gì đó có vẻ bị lỗi (độ bền dưới 0, trọng lượng âm, thiếu biểu tượng, lỗi khi trò chơi đọc nó). Việc phát hiện không hoàn hảo: vật phẩm bị đánh dấu có thể vẫn ổn và vật phẩm lỗi có thể bị bỏ sót, nó chỉ giúp bạn tìm ra vấn đề nhanh hơn.
+
+Di chuột lên một hàng để tô viền thứ đang chứa vật phẩm đó trong thế giới: đồ nội thất, xác chết, phương tiện, vật phẩm trên mặt đất hoặc người chơi. Lưu ý: đường viền có thể bị che khi một bức tường hoặc thứ gì khác chắn tầm nhìn giữa bạn và nó.
+
+Các thao tác có thể thực hiện trên mỗi hàng:
+- Xóa: gỡ bỏ đúng một vật phẩm đó. Vật phẩm đang mặc hoặc cầm trên tay sẽ được tháo ra trước.
+- Đặt lại: thay vật phẩm bằng một vật phẩm mới tinh cùng loại, ở cùng vị trí. Mọi thứ nó chứa sẽ mất: đồ trong túi, chất lỏng trong chai.
+
+Bản thân đồ nội thất không bao giờ bị xóa hay đặt lại, chỉ có các vật phẩm bên trong.
+
+[h2]Quan trọng[/h2]
+Đây là công cụ gỡ lỗi: việc xóa hoặc đặt lại vật phẩm không thể hoàn tác. Hãy sử dụng khi đã hiểu rõ, và sao lưu bản lưu của bạn nếu không chắc chắn.
+
+Tất nhiên tôi không thể thử mọi tình huống: trò chơi này có số lượng vật phẩm nhiều đến mức vô lý, chưa kể đến các mod. Nếu có gì đó không hoạt động như mong đợi, một lần đặt lại bị lỗi, một vật phẩm lẽ ra phải bị đánh dấu nhưng không, hay bất cứ điều gì khác, hãy cho tôi biết trong phần bình luận và tôi sẽ cố gắng hết sức để xử lý.
+
+[h2]Hỏi & Đáp[/h2]
+Q: Có an toàn khi thêm hoặc gỡ mod giữa chừng một bản lưu không?
+A: Có. Inventory Doctor không lưu gì vào thế giới của bạn: mod được thiết kế để thêm vào, sửa vật phẩm bị hỏng rồi gỡ ra.
+
+Q: Mod có hoạt động trong chế độ nhiều người chơi không?
+A: Có. Khi chơi đơn, ai cũng có thể dùng. Khi chơi nhiều người, nó chỉ dành cho quản trị viên, và mọi thao tác đều được máy chủ kiểm tra.
+
+Q: Nó có thể mang lại vật phẩm từ một mod tôi đã gỡ không?
+A: Không. Khi tải bản lưu, chính trò chơi sẽ loại bỏ mọi vật phẩm có mod không còn được cài đặt, nên chúng không bao giờ đến được Inventory Doctor.
+
+Q: Tôi phát hiện một trường hợp mà nó không xử lý được, tôi nên làm gì?
+A: Đăng trong phần bình luận kèm cột "Tên" và "Vật phẩm" của hàng liên quan, mod mà bạn nghĩ nó đến từ đó nếu có, và nếu được, lỗi từ console.txt của bạn (trong C:\Users\TênCủaBạn\Zomboid).
+
+Cứ thoải mái chia sẻ góp ý, báo lỗi và ý tưởng trong phần bình luận, tôi đọc tất cả.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

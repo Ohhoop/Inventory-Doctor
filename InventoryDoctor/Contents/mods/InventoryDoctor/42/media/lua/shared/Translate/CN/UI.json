@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "格子",
+    "UI_InventoryDoctor_ColContainer": "容器",
+    "UI_InventoryDoctor_ColName": "名称",
+    "UI_InventoryDoctor_ColItem": "物品",
+    "UI_InventoryDoctor_ColCondition": "耐久",
+    "UI_InventoryDoctor_ColWeight": "重量",
+    "UI_InventoryDoctor_ColActions": "操作",
+    "UI_InventoryDoctor_AlertNegativeCondition": "它的耐久低于 0。",
+    "UI_InventoryDoctor_AlertNegativeWeight": "它的重量为负数。",
+    "UI_InventoryDoctor_AlertIcon": "找不到它的图标。",
+    "UI_InventoryDoctor_AlertErrors": "游戏读取它时出错。",
+    "UI_InventoryDoctor_ConfirmReset": "用全新物品替换此物品？\n%1\n其当前状态将会丢失。",
+    "UI_InventoryDoctor_ConfirmDelete": "删除此物品？\n%1\n此操作无法撤销。",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "这是一个容器：里面的所有东西都会丢失。",
+    "UI_InventoryDoctor_ConfirmFluid": "它装有液体：液体将会丢失。",
+    "UI_InventoryDoctor_ConfirmEquipped": "它正被穿戴或手持：会先将它卸下。",
+    "UI_InventoryDoctor_TooltipReset": "用全新物品替换此物品。",
+    "UI_InventoryDoctor_TooltipDelete": "删除此物品。"
+}

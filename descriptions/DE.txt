@@ -1,0 +1,58 @@
+[h2]Was es ist[/h2]
+Inventory Doctor ist ein Entwicklungs- und Debugging-Werkzeug. Damit siehst du, was wirklich in jedem Behälter rund um deinen Charakter liegt, und kannst die kaputten Gegenstände reparieren: Gegenstände ohne Symbol, Gegenstände mit negativem Gewicht, Gegenstände, die in deinem Inventar feststecken und sich weder fallen lassen noch verschieben lassen, Gegenstände, bei denen das Spiel Fehler wirft, usw.
+
+Wenn du ein Werkzeug suchst, um kaputte Möbel oder Tiles zu debuggen, schau dir [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url] an.
+
+[h2]So funktioniert es[/h2]
+Klicke irgendwo mit der rechten Maustaste und wähle Inventory Doctor. Es öffnet sich ein Fenster mit einer Tabelle über jeden Gegenstand in jedem Behälter auf den 9 Feldern rund um deinen Charakter, und ein gelber Umriss zeigt den gescannten Bereich in der Welt. Die Tabelle folgt dir, während du dich bewegst.
+
+Es durchsucht:
+- Dein Inventar und die Taschen, die du trägst
+- Möbelbehälter: Kühlschränke, Regale, Kisten usw.
+- Gegenstände auf dem Boden
+- Leichen
+- Kofferräume, Handschuhfächer und Sitze von Fahrzeugen
+- Im Multiplayer, für Admins, die anderen Spieler, die sich im Bereich befinden
+
+Auch Taschen werden geöffnet, in beliebiger Tiefe.
+
+Für jeden Gegenstand zeigt sie:
+- Das Feld, auf dem er liegt
+- Seinen Namen und Gegenstandstyp
+- Seinen Zustand
+- Sein Gewicht
+- Den Behälter, in dem er sich befindet, mit dem vollständigen Pfad, wenn er in einer Tasche steckt (zum Beispiel Kühlschrank > Tasche)
+- Ein rotes Warnsymbol, wenn etwas kaputt aussieht (Zustand unter 0, negatives Gewicht, fehlendes Symbol, Fehler, wenn das Spiel ihn liest). Die Erkennung ist nicht perfekt: Ein markierter Gegenstand kann in Ordnung sein und ein kaputter kann übersehen werden, sie hilft dir nur, das Problem schneller zu finden.
+
+Fahre mit der Maus über eine Zeile, um in der Welt zu umranden, was diesen Gegenstand enthält: das Möbelstück, die Leiche, das Fahrzeug, den Gegenstand auf dem Boden oder den Spieler. Vorsicht: Ein Umriss kann verdeckt sein, wenn eine Wand oder etwas anderes die Sicht zwischen dir und ihm versperrt.
+
+Mögliche Aktionen in jeder Zeile:
+- Löschen: entfernt genau diesen einen Gegenstand. Ein getragener oder gehaltener Gegenstand wird zuerst abgelegt.
+- Zurücksetzen: ersetzt den Gegenstand durch einen brandneuen desselben Typs an derselben Stelle. Alles, was er enthielt, geht verloren: der Inhalt einer Tasche, die Flüssigkeit einer Flasche.
+
+Möbel selbst werden nie gelöscht oder zurückgesetzt, nur die Gegenstände darin.
+
+[h2]Wichtig[/h2]
+Dies ist ein Debugging-Werkzeug: Das Löschen oder Zurücksetzen von Gegenständen kann nicht rückgängig gemacht werden. Setze es bewusst ein und lege eine Sicherung deines Spielstands an, wenn du unsicher bist.
+
+Ich konnte natürlich nicht jedes einzelne Szenario testen: Es gibt eine lächerliche Menge an Gegenständen in diesem Spiel, und da haben wir noch nicht einmal von Mods gesprochen. Wenn sich etwas nicht wie erwartet verhält, ein Zurücksetzen schiefgeht, ein Gegenstand nicht markiert wird, obwohl er sollte, oder irgendetwas anderes, sag mir bitte im Kommentarbereich Bescheid, und ich tue mein Bestes, um es zu berücksichtigen.
+
+[h2]Fragen und Antworten[/h2]
+Q: Kann ich es mitten in einem Spielstand hinzufügen oder entfernen?
+A: Ja. Inventory Doctor speichert nichts in deiner Welt: Es ist dafür gemacht, hinzugefügt zu werden, den kaputten Gegenstand zu reparieren und wieder entfernt zu werden.
+
+Q: Funktioniert es im Multiplayer?
+A: Ja. Im Einzelspielermodus kann es jeder benutzen. Im Multiplayer ist es Admins vorbehalten, und jede Aktion wird vom Server geprüft.
+
+Q: Kann es Gegenstände aus einem Mod zurückholen, den ich entfernt habe?
+A: Nein. Beim Laden eines Spielstands verwirft das Spiel selbst jeden Gegenstand, dessen Mod nicht mehr installiert ist, daher erreichen sie Inventory Doctor nie.
+
+Q: Ich habe einen Fall gefunden, den es nicht behandelt, was soll ich tun?
+A: Poste ihn im Kommentarbereich mit den Spalten "Name" und "Gegenstand" der betreffenden Zeile, gegebenenfalls dem Mod, von dem er deiner Meinung nach stammt, und wenn möglich dem Fehler aus deiner console.txt (unter C:\Users\DeinName\Zomboid).
+
+Teile gerne dein Feedback, deine Fehlerberichte und Ideen im Kommentarbereich, ich lese alles.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

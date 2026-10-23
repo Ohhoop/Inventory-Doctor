@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Rute",
+    "UI_InventoryDoctor_ColContainer": "Beholder",
+    "UI_InventoryDoctor_ColName": "Navn",
+    "UI_InventoryDoctor_ColItem": "Gjenstand",
+    "UI_InventoryDoctor_ColCondition": "Tilstand",
+    "UI_InventoryDoctor_ColWeight": "Vekt",
+    "UI_InventoryDoctor_ColActions": "Handlinger",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Tilstanden er under 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Vekten er negativ.",
+    "UI_InventoryDoctor_AlertIcon": "Ikonet kan ikke finnes.",
+    "UI_InventoryDoctor_AlertErrors": "Spillet gir feil når det leser den.",
+    "UI_InventoryDoctor_ConfirmReset": "Erstatte denne gjenstanden med en ny?\n%1\nDen nåværende tilstanden går tapt.",
+    "UI_InventoryDoctor_ConfirmDelete": "Slette denne gjenstanden?\n%1\nDette kan ikke angres.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Det er en beholder: alt inni vil gå tapt.",
+    "UI_InventoryDoctor_ConfirmFluid": "Den inneholder en væske: væsken går tapt.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Den er tatt på eller holdes: den tas av først.",
+    "UI_InventoryDoctor_TooltipReset": "Erstatter denne gjenstanden med en ny.",
+    "UI_InventoryDoctor_TooltipDelete": "Sletter denne gjenstanden."
+}

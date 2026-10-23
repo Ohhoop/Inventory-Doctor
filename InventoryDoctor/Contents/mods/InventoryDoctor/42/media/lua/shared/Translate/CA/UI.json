@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Casella",
+    "UI_InventoryDoctor_ColContainer": "Contenidor",
+    "UI_InventoryDoctor_ColName": "Nom",
+    "UI_InventoryDoctor_ColItem": "Objecte",
+    "UI_InventoryDoctor_ColCondition": "Estat",
+    "UI_InventoryDoctor_ColWeight": "Pes",
+    "UI_InventoryDoctor_ColActions": "Accions",
+    "UI_InventoryDoctor_AlertNegativeCondition": "El seu estat és inferior a 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "El seu pes és negatiu.",
+    "UI_InventoryDoctor_AlertIcon": "No es troba la seva icona.",
+    "UI_InventoryDoctor_AlertErrors": "El joc dona errors en llegir-lo.",
+    "UI_InventoryDoctor_ConfirmReset": "Substituir aquest objecte per un de nou?\n%1\nEl seu estat actual es perdrà.",
+    "UI_InventoryDoctor_ConfirmDelete": "Esborrar aquest objecte?\n%1\nNo es pot desfer.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "És un contenidor: es perdrà tot el que hi ha a dins.",
+    "UI_InventoryDoctor_ConfirmFluid": "Conté un líquid: el líquid es perdrà.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Està posat o a la mà: primer es traurà.",
+    "UI_InventoryDoctor_TooltipReset": "Substitueix aquest objecte per un de nou.",
+    "UI_InventoryDoctor_TooltipDelete": "Esborra aquest objecte."
+}

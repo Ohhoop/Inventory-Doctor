@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Клетка",
+    "UI_InventoryDoctor_ColContainer": "Контейнер",
+    "UI_InventoryDoctor_ColName": "Название",
+    "UI_InventoryDoctor_ColItem": "Предмет",
+    "UI_InventoryDoctor_ColCondition": "Состояние",
+    "UI_InventoryDoctor_ColWeight": "Вес",
+    "UI_InventoryDoctor_ColActions": "Действия",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Его состояние ниже 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Его вес отрицательный.",
+    "UI_InventoryDoctor_AlertIcon": "Его иконка не найдена.",
+    "UI_InventoryDoctor_AlertErrors": "Игра выдаёт ошибки при его чтении.",
+    "UI_InventoryDoctor_ConfirmReset": "Заменить этот предмет новым?\n%1\nЕго текущее состояние будет потеряно.",
+    "UI_InventoryDoctor_ConfirmDelete": "Удалить этот предмет?\n%1\nЭто действие нельзя отменить.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Это контейнер: всё его содержимое будет потеряно.",
+    "UI_InventoryDoctor_ConfirmFluid": "В нём есть жидкость: жидкость будет потеряна.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Он надет или в руках: сначала он будет снят.",
+    "UI_InventoryDoctor_TooltipReset": "Заменяет этот предмет новым.",
+    "UI_InventoryDoctor_TooltipDelete": "Удаляет этот предмет."
+}

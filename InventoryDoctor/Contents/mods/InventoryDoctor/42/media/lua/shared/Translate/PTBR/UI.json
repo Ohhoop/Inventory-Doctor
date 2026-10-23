@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Quadrado",
+    "UI_InventoryDoctor_ColContainer": "Recipiente",
+    "UI_InventoryDoctor_ColName": "Nome",
+    "UI_InventoryDoctor_ColItem": "Item",
+    "UI_InventoryDoctor_ColCondition": "Condição",
+    "UI_InventoryDoctor_ColWeight": "Peso",
+    "UI_InventoryDoctor_ColActions": "Ações",
+    "UI_InventoryDoctor_AlertNegativeCondition": "A condição dele está abaixo de 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "O peso dele é negativo.",
+    "UI_InventoryDoctor_AlertIcon": "O ícone dele não foi encontrado.",
+    "UI_InventoryDoctor_AlertErrors": "O jogo gera erros ao lê-lo.",
+    "UI_InventoryDoctor_ConfirmReset": "Substituir este item por um novo?\n%1\nO estado atual dele será perdido.",
+    "UI_InventoryDoctor_ConfirmDelete": "Excluir este item?\n%1\nIsso não pode ser desfeito.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "É um recipiente: tudo o que está dentro será perdido.",
+    "UI_InventoryDoctor_ConfirmFluid": "Contém um líquido: o líquido será perdido.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Está vestido ou na mão: será retirado primeiro.",
+    "UI_InventoryDoctor_TooltipReset": "Substitui este item por um novo.",
+    "UI_InventoryDoctor_TooltipDelete": "Exclui este item."
+}

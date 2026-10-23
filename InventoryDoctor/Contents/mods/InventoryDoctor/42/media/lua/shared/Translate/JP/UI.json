@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "マス",
+    "UI_InventoryDoctor_ColContainer": "コンテナ",
+    "UI_InventoryDoctor_ColName": "名前",
+    "UI_InventoryDoctor_ColItem": "アイテム",
+    "UI_InventoryDoctor_ColCondition": "状態",
+    "UI_InventoryDoctor_ColWeight": "重量",
+    "UI_InventoryDoctor_ColActions": "操作",
+    "UI_InventoryDoctor_AlertNegativeCondition": "状態が 0 未満です。",
+    "UI_InventoryDoctor_AlertNegativeWeight": "重量がマイナスです。",
+    "UI_InventoryDoctor_AlertIcon": "アイコンが見つかりません。",
+    "UI_InventoryDoctor_AlertErrors": "読み込み時にゲームがエラーを出します。",
+    "UI_InventoryDoctor_ConfirmReset": "このアイテムを新品に置き換えますか？\n%1\n現在の状態は失われます。",
+    "UI_InventoryDoctor_ConfirmDelete": "このアイテムを削除しますか？\n%1\nこの操作は元に戻せません。",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "コンテナです：中身はすべて失われます。",
+    "UI_InventoryDoctor_ConfirmFluid": "液体が入っています：液体は失われます。",
+    "UI_InventoryDoctor_ConfirmEquipped": "装備中または手に持っています：先に外します。",
+    "UI_InventoryDoctor_TooltipReset": "このアイテムを新品に置き換えます。",
+    "UI_InventoryDoctor_TooltipDelete": "このアイテムを削除します。"
+}

@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Casilla",
+    "UI_InventoryDoctor_ColContainer": "Contenedor",
+    "UI_InventoryDoctor_ColName": "Nombre",
+    "UI_InventoryDoctor_ColItem": "Objeto",
+    "UI_InventoryDoctor_ColCondition": "Estado",
+    "UI_InventoryDoctor_ColWeight": "Peso",
+    "UI_InventoryDoctor_ColActions": "Acciones",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Su estado está por debajo de 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Su peso es negativo.",
+    "UI_InventoryDoctor_AlertIcon": "No se encuentra su icono.",
+    "UI_InventoryDoctor_AlertErrors": "El juego da errores al leerlo.",
+    "UI_InventoryDoctor_ConfirmReset": "¿Reemplazar este objeto por uno nuevo?\n%1\nSu estado actual se perderá.",
+    "UI_InventoryDoctor_ConfirmDelete": "¿Borrar este objeto?\n%1\nNo se puede deshacer.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Es un contenedor: se perderá todo lo que hay dentro.",
+    "UI_InventoryDoctor_ConfirmFluid": "Contiene un líquido: el líquido se perderá.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Está puesto o en la mano: primero se quitará.",
+    "UI_InventoryDoctor_TooltipReset": "Reemplaza este objeto por uno nuevo.",
+    "UI_InventoryDoctor_TooltipDelete": "Borra este objeto."
+}

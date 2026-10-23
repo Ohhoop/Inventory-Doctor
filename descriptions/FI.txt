@@ -1,0 +1,58 @@
+[h2]Mikä se on[/h2]
+Inventory Doctor on kehitys- ja vianetsintätyökalu. Sillä näet, mitä jokaisessa hahmosi ympärillä olevassa säiliössä todella on, ja voit korjata rikkinäiset esineet: esineet ilman kuvaketta, esineet, joiden paino on negatiivinen, esineet, jotka ovat jumissa inventaariossasi eikä niitä voi pudottaa tai siirtää, esineet, joista peli heittää virheitä jne.
+
+Jos etsit työkalua rikkinäisten huonekalujen tai tilejen vianetsintään, tutustu modiin [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Miten se toimii[/h2]
+Napsauta hiiren oikealla painikkeella missä tahansa ja valitse Inventory Doctor. Avautuu ikkuna, jossa on taulukko jokaisesta esineestä jokaisessa säiliössä hahmosi ympärillä olevilla 9 ruudulla, ja keltainen ääriviiva näyttää skannatun alueen maailmassa. Taulukko seuraa sinua liikkuessasi.
+
+Se tutkii:
+- Inventaariosi ja kantamasi laukut
+- Huonekalujen säiliöt: jääkaapit, hyllyt, laatikot jne.
+- Maassa olevat esineet
+- Ruumiit
+- Ajoneuvojen tavaratilat, hansikaslokerot ja istuimet
+- Moninpelissä ylläpitäjille myös alueella seisovat muut pelaajat
+
+Myös laukut avataan, olivatpa ne kuinka syvällä tahansa.
+
+Jokaisesta esineestä näytetään:
+- Ruutu, jolla se on
+- Sen nimi ja esinetyyppi
+- Sen kunto
+- Sen paino
+- Säiliö, jossa se on, koko polkuineen, kun se on laukussa (esimerkiksi Jääkaappi > Laukku)
+- Punainen hälytyssymboli, kun jokin näyttää rikkinäiseltä (kunto alle 0, negatiivinen paino, puuttuva kuvake, virheitä kun peli lukee sitä). Tunnistus ei ole täydellinen: merkitty esine voi olla kunnossa ja rikkinäinen voi jäädä huomaamatta, se vain auttaa löytämään ongelman nopeammin.
+
+Vie hiiri rivin päälle, niin esineen sisältävä kohde korostetaan ääriviivalla maailmassa: huonekalu, ruumis, ajoneuvo, maassa oleva esine tai pelaaja. Huomaa: ääriviiva voi jäädä piiloon, jos seinä tai jokin muu peittää näkyvyyden sinun ja sen välillä.
+
+Mahdolliset toiminnot jokaisella rivillä:
+- Poista: poistaa juuri sen yhden esineen. Päällä pidetty tai kädessä oleva esine otetaan ensin pois.
+- Nollaa: korvaa esineen upouudella samantyyppisellä esineellä samassa paikassa. Kaikki, mitä se sisälsi, menetetään: laukun sisältö, pullon neste.
+
+Itse huonekaluja ei koskaan poisteta eikä nollata, vain niiden sisällä olevat esineet.
+
+[h2]Tärkeää[/h2]
+Tämä on vianetsintätyökalu: esineiden poistamista tai nollaamista ei voi perua. Käytä sitä harkiten ja ota varmuuskopio tallennuksestasi, jos olet epävarma.
+
+En tietenkään pystynyt testaamaan jokaista mahdollista tilannetta: tässä pelissä on naurettava määrä esineitä, eikä modeista ole edes vielä puhuttu. Jos jokin ei toimi odotetusti, nollaus menee pieleen, esine jää merkitsemättä vaikka pitäisi tai jotain muuta, kerro siitä kommenttiosiossa, niin teen parhaani sen käsittelemiseksi.
+
+[h2]Kysymyksiä ja vastauksia[/h2]
+Q: Voiko sen lisätä tai poistaa kesken tallennuksen?
+A: Kyllä. Inventory Doctor ei tallenna mitään maailmaasi: se on tehty lisättäväksi, korjaamaan rikkinäinen esine ja poistettavaksi.
+
+Q: Toimiiko se moninpelissä?
+A: Kyllä. Yksinpelissä kuka tahansa voi käyttää sitä. Moninpelissä se on varattu ylläpitäjille, ja palvelin tarkistaa jokaisen toiminnon.
+
+Q: Voiko sillä palauttaa esineitä modista, jonka poistin?
+A: Ei. Kun tallennus latautuu, peli itse hylkää jokaisen esineen, jonka modi ei ole enää asennettuna, joten Inventory Doctor ei koskaan näe niitä.
+
+Q: Löysin tapauksen, jota se ei käsittele, mitä teen?
+A: Kirjoita siitä kommenttiosioon kyseisen rivin sarakkeiden "Nimi" ja "Esine" tiedoilla, mainitse modi, josta arvelet sen olevan peräisin, jos se on olennaista, ja liitä mahdollisuuksien mukaan virhe console.txt-tiedostostasi (sijainti C:\Users\Nimesi\Zomboid).
+
+Jaa palautteesi, bugiraporttisi ja ideasi kommenttiosiossa, luen kaiken.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Pole",
+    "UI_InventoryDoctor_ColContainer": "Pojemnik",
+    "UI_InventoryDoctor_ColName": "Nazwa",
+    "UI_InventoryDoctor_ColItem": "Przedmiot",
+    "UI_InventoryDoctor_ColCondition": "Stan",
+    "UI_InventoryDoctor_ColWeight": "Waga",
+    "UI_InventoryDoctor_ColActions": "Akcje",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Jego stan jest poniżej 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Jego waga jest ujemna.",
+    "UI_InventoryDoctor_AlertIcon": "Nie można znaleźć jego ikony.",
+    "UI_InventoryDoctor_AlertErrors": "Gra zgłasza błędy podczas jego odczytu.",
+    "UI_InventoryDoctor_ConfirmReset": "Zastąpić ten przedmiot nowym?\n%1\nJego obecny stan zostanie utracony.",
+    "UI_InventoryDoctor_ConfirmDelete": "Usunąć ten przedmiot?\n%1\nTej operacji nie można cofnąć.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "To pojemnik: cała jego zawartość zostanie utracona.",
+    "UI_InventoryDoctor_ConfirmFluid": "Zawiera płyn: płyn zostanie utracony.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Jest noszony lub trzymany: najpierw zostanie zdjęty.",
+    "UI_InventoryDoctor_TooltipReset": "Zastępuje ten przedmiot nowym.",
+    "UI_InventoryDoctor_TooltipDelete": "Usuwa ten przedmiot."
+}

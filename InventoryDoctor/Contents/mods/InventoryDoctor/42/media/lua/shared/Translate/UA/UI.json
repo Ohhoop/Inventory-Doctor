@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Клітинка",
+    "UI_InventoryDoctor_ColContainer": "Контейнер",
+    "UI_InventoryDoctor_ColName": "Назва",
+    "UI_InventoryDoctor_ColItem": "Предмет",
+    "UI_InventoryDoctor_ColCondition": "Стан",
+    "UI_InventoryDoctor_ColWeight": "Вага",
+    "UI_InventoryDoctor_ColActions": "Дії",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Його стан нижче 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Його вага від'ємна.",
+    "UI_InventoryDoctor_AlertIcon": "Його іконку не знайдено.",
+    "UI_InventoryDoctor_AlertErrors": "Гра видає помилки під час його читання.",
+    "UI_InventoryDoctor_ConfirmReset": "Замінити цей предмет новим?\n%1\nЙого поточний стан буде втрачено.",
+    "UI_InventoryDoctor_ConfirmDelete": "Видалити цей предмет?\n%1\nЦю дію не можна скасувати.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Це контейнер: весь його вміст буде втрачено.",
+    "UI_InventoryDoctor_ConfirmFluid": "У ньому є рідина: рідину буде втрачено.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Він вдягнений або в руках: спочатку його буде знято.",
+    "UI_InventoryDoctor_TooltipReset": "Замінює цей предмет новим.",
+    "UI_InventoryDoctor_TooltipDelete": "Видаляє цей предмет."
+}

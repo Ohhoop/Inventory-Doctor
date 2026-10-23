@@ -1,0 +1,58 @@
+[h2]Mi ez[/h2]
+Az Inventory Doctor egy fejlesztői és hibakereső eszköz. Megmutatja, mi van valójában a karaktered körüli összes tárolóban, és lehetővé teszi a hibás tárgyak javítását: ikon nélküli tárgyak, negatív súlyú tárgyak, a leltáradban beragadt, el nem dobható és át nem helyezhető tárgyak, tárgyak, amelyekre a játék hibát dob stb.
+
+Ha hibás bútorok vagy mezők hibakereséséhez keresel eszközt, nézd meg a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url] modot.
+
+[h2]Hogyan működik[/h2]
+Kattints jobb gombbal bárhol, és válaszd az Inventory Doctor lehetőséget. Megnyílik egy ablak egy táblázattal a karaktered körüli 9 mezőn lévő összes tároló minden tárgyáról, egy sárga körvonal pedig a világban jelzi a vizsgált területet. A táblázat követ, ahogy mozogsz.
+
+Átvizsgálja:
+- A leltáradat és a nálad lévő táskákat
+- A bútorok tárolóit: hűtők, polcok, ládák stb.
+- A földön lévő tárgyakat
+- A holttesteket
+- A járművek csomagtartóit, kesztyűtartóit és üléseit
+- Többjátékos módban, az adminok számára, a területen álló többi játékost
+
+A táskákat is megnyitja, bármilyen mélységig.
+
+Minden tárgynál megjeleníti:
+- A mezőt, amelyen van
+- A nevét és a tárgytípusát
+- Az állapotát
+- A súlyát
+- A tárolót, amelyben van, a teljes útvonallal, ha egy táskában található (például Hűtő > Táska)
+- Egy piros figyelmeztető jelet, ha valami hibásnak tűnik (0 alatti állapot, negatív súly, hiányzó ikon, hibák, amikor a játék beolvassa). Az észlelés nem tökéletes: egy megjelölt tárgy lehet rendben, egy hibás pedig elkerülheti a figyelmet, csak abban segít, hogy gyorsabban megtaláld a problémát.
+
+Vidd az egeret egy sor fölé, és körvonalat kap a világban az, ami az adott tárgyat tartalmazza: a bútor, a holttest, a jármű, a földön lévő tárgy vagy a játékos. Vigyázat: a körvonal rejtve maradhat, ha egy fal vagy valami más eltakarja a rálátást közted és a kijelölt dolog között.
+
+Az egyes sorokon elérhető műveletek:
+- Törlés: csak azt az egy tárgyat távolítja el. A viselt vagy kézben tartott tárgyat előbb leveszi.
+- Visszaállítás: a tárgyat egy vadonatúj, azonos típusú tárgyra cseréli, ugyanazon a helyen. Minden, amit tartalmazott, elvész: egy táska tartalma, egy palack folyadéka.
+
+Magukat a bútorokat sosem törli és nem állítja vissza, csak a bennük lévő tárgyakat.
+
+[h2]Fontos[/h2]
+Ez egy hibakereső eszköz: a tárgyak törlése vagy visszaállítása nem vonható vissza. Használd tudatosan, és ha bizonytalan vagy, készíts biztonsági mentést a mentésedről.
+
+Természetesen nem tudtam minden egyes helyzetet kipróbálni: ebben a játékban nevetségesen sok tárgy van, és akkor a modokról még nem is beszéltünk. Ha valami nem a várt módon működik, egy visszaállítás rosszul sül el, egy tárgy, amelyet meg kellene jelölni, nincs megjelölve, vagy bármi más, kérlek, jelezd a hozzászólásokban, és mindent megteszek, hogy kezeljem.
+
+[h2]Kérdések és válaszok[/h2]
+Q: Biztonságos hozzáadni vagy eltávolítani egy mentés közben?
+A: Igen. Az Inventory Doctor semmit sem ment a világodba: arra készült, hogy hozzáadd, kijavítsa a hibás tárgyat, majd eltávolítsd.
+
+Q: Működik többjátékos módban?
+A: Igen. Egyjátékos módban bárki használhatja. Többjátékos módban csak az adminok számára érhető el, és minden műveletet a szerver ellenőriz.
+
+Q: Vissza tudja hozni egy eltávolított mod tárgyait?
+A: Nem. Egy mentés betöltésekor maga a játék dob el minden olyan tárgyat, amelynek a modja már nincs telepítve, így ezek el sem jutnak az Inventory Doctorig.
+
+Q: Találtam egy esetet, amelyet nem kezel, mit tegyek?
+A: Írd meg a hozzászólásokban az adott sor Név és Tárgy oszlopával, azzal a moddal, amelyből szerinted származik (ha van ilyen), és ha lehetséges, a console.txt fájlodban lévő hibával (a C:\Users\Felhasznalonev\Zomboid mappában).
+
+Nyugodtan oszd meg a visszajelzéseidet, hibajelentéseidet és ötleteidet a hozzászólásokban, mindent elolvasok.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

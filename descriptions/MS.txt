@@ -1,0 +1,58 @@
+[h2]Apa itu[/h2]
+Inventory Doctor ialah alat pembangunan dan nyahpepijat. Ia membolehkan anda melihat apa yang sebenarnya berada di dalam setiap bekas di sekeliling watak anda, dan membaiki item yang rosak: item tanpa ikon, item dengan berat negatif, item yang tersekat dalam inventori anda dan tidak boleh dijatuhkan atau dipindahkan, item yang menyebabkan permainan memaparkan ralat, dll.
+
+Jika anda mencari alat untuk menyahpepijat perabot atau tile yang rosak, lihatlah [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Cara ia berfungsi[/h2]
+Klik kanan di mana-mana dan pilih Inventory Doctor. Satu tetingkap dibuka dengan jadual setiap item dalam setiap bekas pada 9 petak di sekeliling watak anda, dan garis kuning menandakan kawasan yang diimbas di dalam dunia. Jadual ini mengikut anda semasa anda bergerak.
+
+Ia memeriksa:
+- Inventori anda dan beg yang anda bawa
+- Bekas perabot: peti sejuk, rak, peti kayu, dll.
+- Item di atas tanah
+- Mayat
+- But, laci dashboard dan tempat duduk kenderaan
+- Dalam multiplayer, untuk admin, pemain lain yang berada di kawasan itu
+
+Beg turut dibuka, pada sebarang kedalaman.
+
+Bagi setiap item, ia memaparkan:
+- Petak tempat ia berada
+- Nama dan jenis itemnya
+- Keadaannya
+- Beratnya
+- Bekas yang menyimpannya, dengan laluan penuh apabila ia berada dalam beg (contohnya Peti Sejuk > Beg)
+- Simbol amaran merah apabila sesuatu kelihatan rosak (keadaan di bawah 0, berat negatif, ikon hilang, ralat apabila permainan membacanya). Pengesanan tidak sempurna: item yang ditanda mungkin tiada masalah dan yang rosak mungkin terlepas, ia hanya membantu anda mencari masalah dengan lebih cepat.
+
+Halakan tetikus pada satu baris untuk menandakan di dalam dunia apa yang menyimpan item itu: perabot, mayat, kenderaan, item di atas tanah atau pemain. Berhati-hati: garis penanda boleh tersembunyi jika dinding atau benda lain menghalang pandangan antara anda dan benda itu.
+
+Tindakan yang tersedia pada setiap baris:
+- Padam: membuang item itu sahaja. Item yang sedang dipakai atau dipegang ditanggalkan terlebih dahulu.
+- Set Semula: menggantikan item dengan item baharu daripada jenis yang sama, di tempat yang sama. Semua yang disimpannya hilang: isi beg, cecair dalam botol.
+
+Perabot itu sendiri tidak sekali-kali dipadam atau diset semula, hanya item di dalamnya.
+
+[h2]Penting[/h2]
+Ini ialah alat nyahpepijat: memadam atau menetapkan semula item tidak boleh dibatalkan. Gunakannya dengan sedar, dan simpan sandaran simpanan anda jika anda tidak pasti.
+
+Sudah tentu saya tidak dapat menguji setiap senario: terdapat terlalu banyak item dalam permainan ini, belum lagi mod. Jika sesuatu tidak berfungsi seperti yang dijangka, set semula yang tidak menjadi, item yang sepatutnya ditanda tetapi tidak, atau apa sahaja, sila beritahu saya di ruangan komen dan saya akan cuba sedaya upaya untuk menanganinya.
+
+[h2]Soal Jawab[/h2]
+Q: Adakah selamat untuk menambah atau membuangnya di tengah simpanan?
+A: Ya. Inventory Doctor tidak menyimpan apa-apa dalam dunia anda: ia direka untuk ditambah, membaiki item yang rosak, kemudian dibuang.
+
+Q: Adakah ia berfungsi dalam multiplayer?
+A: Ya. Dalam mod pemain tunggal sesiapa sahaja boleh menggunakannya. Dalam multiplayer ia dikhaskan untuk admin, dan setiap tindakan disemak oleh pelayan.
+
+Q: Bolehkah ia mengembalikan item daripada mod yang telah saya buang?
+A: Tidak. Apabila simpanan dimuatkan, permainan itu sendiri membuang setiap item yang modnya tidak lagi dipasang, jadi item itu tidak pernah sampai kepada Inventory Doctor.
+
+Q: Saya menemui kes yang tidak dikendalikan, apa yang perlu saya lakukan?
+A: Tulis di ruangan komen dengan lajur "Nama" dan "Item" bagi baris berkenaan, mod yang anda rasa menjadi puncanya jika berkaitan dan, jika boleh, ralat daripada console.txt anda (di C:\Users\NamaAnda\Zomboid).
+
+Jangan segan berkongsi maklum balas, laporan pepijat dan idea anda di ruangan komen, saya membaca semuanya.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

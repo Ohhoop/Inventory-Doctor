@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "ช่อง",
+    "UI_InventoryDoctor_ColContainer": "ภาชนะ",
+    "UI_InventoryDoctor_ColName": "ชื่อ",
+    "UI_InventoryDoctor_ColItem": "ไอเท็ม",
+    "UI_InventoryDoctor_ColCondition": "สภาพ",
+    "UI_InventoryDoctor_ColWeight": "น้ำหนัก",
+    "UI_InventoryDoctor_ColActions": "การกระทำ",
+    "UI_InventoryDoctor_AlertNegativeCondition": "สภาพต่ำกว่า 0",
+    "UI_InventoryDoctor_AlertNegativeWeight": "น้ำหนักติดลบ",
+    "UI_InventoryDoctor_AlertIcon": "ไม่พบไอคอนของไอเท็มนี้",
+    "UI_InventoryDoctor_AlertErrors": "เกมเกิดข้อผิดพลาดขณะอ่านไอเท็มนี้",
+    "UI_InventoryDoctor_ConfirmReset": "แทนที่ไอเท็มนี้ด้วยของใหม่หรือไม่?\n%1\nสภาพปัจจุบันจะหายไป",
+    "UI_InventoryDoctor_ConfirmDelete": "ลบไอเท็มนี้หรือไม่?\n%1\nไม่สามารถย้อนกลับได้",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "นี่คือภาชนะ: ทุกอย่างข้างในจะหายไป",
+    "UI_InventoryDoctor_ConfirmFluid": "มีของเหลวอยู่: ของเหลวจะหายไป",
+    "UI_InventoryDoctor_ConfirmEquipped": "กำลังสวมใส่หรือถืออยู่: จะถูกถอดออกก่อน",
+    "UI_InventoryDoctor_TooltipReset": "แทนที่ไอเท็มนี้ด้วยของใหม่",
+    "UI_InventoryDoctor_TooltipDelete": "ลบไอเท็มนี้"
+}

@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Square",
+    "UI_InventoryDoctor_ColContainer": "Container",
+    "UI_InventoryDoctor_ColName": "Name",
+    "UI_InventoryDoctor_ColItem": "Item",
+    "UI_InventoryDoctor_ColCondition": "Condition",
+    "UI_InventoryDoctor_ColWeight": "Weight",
+    "UI_InventoryDoctor_ColActions": "Actions",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Its condition is below 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Its weight is negative.",
+    "UI_InventoryDoctor_AlertIcon": "Its icon cannot be found.",
+    "UI_InventoryDoctor_AlertErrors": "The game throws errors when reading it.",
+    "UI_InventoryDoctor_ConfirmReset": "Replace this item with a new one?\n%1\nIts current state will be lost.",
+    "UI_InventoryDoctor_ConfirmDelete": "Delete this item?\n%1\nThis cannot be undone.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "It is a container: everything inside will be lost.",
+    "UI_InventoryDoctor_ConfirmFluid": "It holds a liquid: the liquid will be lost.",
+    "UI_InventoryDoctor_ConfirmEquipped": "It is worn or held: it will be taken off first.",
+    "UI_InventoryDoctor_TooltipReset": "Replaces this item with a new one.",
+    "UI_InventoryDoctor_TooltipDelete": "Deletes this item."
+}

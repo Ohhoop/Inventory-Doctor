@@ -1,0 +1,58 @@
+[h2]Apa ini[/h2]
+Inventory Doctor adalah alat pengembangan dan debugging. Alat ini memungkinkanmu melihat apa yang sebenarnya ada di dalam setiap wadah di sekitar karaktermu, dan memperbaiki item yang rusak: item tanpa ikon, item dengan berat negatif, item yang tersangkut di inventarismu dan tidak bisa dijatuhkan atau dipindahkan, item yang membuat game memunculkan error, dll.
+
+Jika kamu mencari alat untuk men-debug furnitur atau tile yang rusak, coba lihat [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Cara kerjanya[/h2]
+Klik kanan di mana saja dan pilih Inventory Doctor. Sebuah jendela terbuka berisi tabel semua item di setiap wadah pada 9 petak di sekitar karaktermu, dan garis kuning menandai area yang dipindai di dunia. Tabel ini mengikutimu saat kamu bergerak.
+
+Yang diperiksa:
+- Inventarismu dan tas yang kamu bawa
+- Wadah furnitur: kulkas, rak, peti, dll.
+- Item di tanah
+- Mayat
+- Bagasi, laci dasbor, dan kursi kendaraan
+- Di multiplayer, untuk admin, pemain lain yang berada di area tersebut
+
+Tas juga dibuka, sedalam apa pun.
+
+Untuk setiap item, tabel menampilkan:
+- Petak tempatnya berada
+- Nama dan jenis itemnya
+- Kondisinya
+- Beratnya
+- Wadah yang menyimpannya, dengan jalur lengkap jika berada di dalam tas (misalnya Kulkas > Tas)
+- Simbol peringatan merah jika ada yang tampak rusak (kondisi di bawah 0, berat negatif, ikon hilang, error saat game membacanya). Deteksinya tidak sempurna: item yang ditandai bisa saja baik-baik saja dan yang rusak bisa terlewat, ini hanya membantumu menemukan masalah lebih cepat.
+
+Arahkan kursor ke sebuah baris untuk menandai di dunia apa yang menyimpan item itu: furnitur, mayat, kendaraan, item di tanah, atau pemain. Hati-hati: garis penanda bisa tersembunyi jika dinding atau benda lain menghalangi pandangan antara kamu dan benda tersebut.
+
+Tindakan yang tersedia di setiap baris:
+- Hapus: menghapus satu item itu saja. Item yang sedang dikenakan atau dipegang dilepas terlebih dahulu.
+- Reset: mengganti item dengan item baru dari jenis yang sama, di tempat yang sama. Semua yang ada di dalamnya hilang: isi tas, cairan di dalam botol.
+
+Furnitur itu sendiri tidak pernah dihapus atau direset, hanya item di dalamnya.
+
+[h2]Penting[/h2]
+Ini adalah alat debugging: menghapus atau mereset item tidak bisa dibatalkan. Gunakan dengan sadar, dan simpan cadangan save-mu jika kamu ragu.
+
+Tentu saja saya tidak bisa menguji setiap skenario: ada begitu banyak item di game ini, belum lagi mod. Jika ada yang tidak berjalan sesuai harapan, reset yang gagal, item yang seharusnya ditandai tetapi tidak, atau hal lainnya, beri tahu saya di bagian komentar dan saya akan berusaha sebaik mungkin menanganinya.
+
+[h2]Tanya Jawab[/h2]
+Q: Apakah aman ditambahkan atau dihapus di tengah save?
+A: Ya. Inventory Doctor tidak menyimpan apa pun di duniamu: mod ini dibuat untuk ditambahkan, memperbaiki item yang rusak, lalu dihapus.
+
+Q: Apakah bisa di multiplayer?
+A: Ya. Di mode pemain tunggal siapa pun bisa memakainya. Di multiplayer alat ini khusus untuk admin, dan setiap tindakan diperiksa oleh server.
+
+Q: Bisakah alat ini mengembalikan item dari mod yang sudah saya hapus?
+A: Tidak. Saat save dimuat, game sendiri membuang setiap item yang mod-nya sudah tidak terpasang, jadi item tersebut tidak pernah sampai ke Inventory Doctor.
+
+Q: Saya menemukan kasus yang tidak ditangani, apa yang harus saya lakukan?
+A: Tulis di bagian komentar dengan kolom "Nama" dan "Barang" dari baris yang bersangkutan, mod yang menurutmu menjadi asalnya jika ada, dan jika memungkinkan, error dari console.txt (di C:\Users\NamaKamu\Zomboid).
+
+Jangan ragu membagikan masukan, laporan bug, dan idemu di bagian komentar, saya membaca semuanya.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

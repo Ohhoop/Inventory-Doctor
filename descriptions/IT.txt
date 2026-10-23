@@ -1,0 +1,58 @@
+[h2]Cos'è[/h2]
+Inventory Doctor è uno strumento di sviluppo e debug. Ti permette di vedere cosa c'è davvero dentro ogni contenitore intorno al tuo personaggio e di sistemare gli oggetti rotti: oggetti senza icona, oggetti con peso negativo, oggetti bloccati nel tuo inventario che non si possono lasciare né spostare, oggetti su cui il gioco genera errori, ecc.
+
+Se cerchi uno strumento per fare il debug di mobili o tile rotti, dai un'occhiata a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Come funziona[/h2]
+Fai clic destro in un punto qualsiasi e scegli Inventory Doctor. Si apre una finestra con una tabella di tutti gli oggetti in tutti i contenitori sulle 9 tile intorno al tuo personaggio, e un contorno giallo mostra nel mondo l'area analizzata. La tabella ti segue mentre ti muovi.
+
+Controlla:
+- Il tuo inventario e le borse che porti
+- I contenitori dei mobili: frigoriferi, scaffali, casse, ecc.
+- Gli oggetti a terra
+- I cadaveri
+- Bagagliai, vani portaoggetti e sedili dei veicoli
+- In multiplayer, per gli admin, gli altri giocatori presenti nell'area
+
+Anche le borse vengono aperte, a qualsiasi profondità.
+
+Per ogni oggetto mostra:
+- La tile su cui si trova
+- Il nome e il tipo di oggetto
+- La condizione
+- Il peso
+- Il contenitore in cui si trova, con il percorso completo quando è dentro una borsa (per esempio Frigorifero > Borsa)
+- Un simbolo di avviso rosso quando qualcosa sembra rotto (condizione inferiore a 0, peso negativo, icona mancante, errori quando il gioco lo legge). Il rilevamento non è perfetto: un oggetto segnalato potrebbe essere a posto e uno rotto potrebbe sfuggire, serve solo ad aiutarti a trovare il problema più in fretta.
+
+Passa il mouse su una riga per evidenziare nel mondo ciò che contiene quell'oggetto: il mobile, il cadavere, il veicolo, l'oggetto a terra o il giocatore. Attenzione: il contorno può essere nascosto quando un muro o qualcos'altro blocca la visuale tra te e ciò che è evidenziato.
+
+Azioni disponibili su ogni riga:
+- Elimina: rimuove solo quell'oggetto. Un oggetto indossato o tenuto in mano viene prima tolto.
+- Reimposta: sostituisce l'oggetto con uno nuovo di zecca dello stesso tipo, nello stesso posto. Tutto ciò che conteneva va perso: il contenuto di una borsa, il liquido di una bottiglia.
+
+I mobili in sé non vengono mai eliminati né reimpostati, solo gli oggetti al loro interno.
+
+[h2]Importante[/h2]
+Questo è uno strumento di debug: eliminare o reimpostare oggetti non si può annullare. Usalo con consapevolezza e, se hai dubbi, tieni un backup del tuo salvataggio.
+
+Ovviamente non ho potuto testare ogni singolo scenario: in questo gioco c'è una quantità assurda di oggetti, e senza nemmeno parlare dei mod. Se qualcosa non si comporta come previsto, un reset che va storto, un oggetto che dovrebbe essere segnalato e non lo è, o qualsiasi altra cosa, fammelo sapere nella sezione commenti e farò del mio meglio per gestirlo.
+
+[h2]Domande e risposte[/h2]
+Q: È sicuro aggiungerlo o rimuoverlo a partita in corso?
+A: Sì. Inventory Doctor non salva nulla nel tuo mondo: è pensato per essere aggiunto, riparare l'oggetto rotto ed essere rimosso.
+
+Q: Funziona in multiplayer?
+A: Sì. In giocatore singolo chiunque può usarlo. In multiplayer è riservato agli admin e ogni azione viene verificata dal server.
+
+Q: Può recuperare gli oggetti di un mod che ho rimosso?
+A: No. Quando un salvataggio viene caricato, è il gioco stesso a scartare ogni oggetto il cui mod non è più installato, quindi non arrivano mai a Inventory Doctor.
+
+Q: Ho trovato un caso che non gestisce, cosa devo fare?
+A: Scrivilo nella sezione commenti con le colonne "Nome" e "Oggetto" della riga in questione, il mod da cui pensi che provenga se è il caso e, se possibile, l'errore dal tuo console.txt (in C:\Users\TuoNome\Zomboid).
+
+Sentiti libero di condividere feedback, segnalazioni di bug e idee nella sezione commenti, leggo tutto.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

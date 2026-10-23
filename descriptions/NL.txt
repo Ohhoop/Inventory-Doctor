@@ -1,0 +1,58 @@
+[h2]Wat het is[/h2]
+Inventory Doctor is een ontwikkel- en debugtool. Je ziet ermee wat er werkelijk in elke container rond je personage zit, en je kunt de kapotte items repareren: items zonder icoon, items met een negatief gewicht, items die vastzitten in je inventaris en niet te laten vallen of te verplaatsen zijn, items waarop het spel fouten geeft, enz.
+
+Als je een tool zoekt om kapotte meubels of tegels te debuggen, bekijk dan [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Hoe het werkt[/h2]
+Klik ergens met de rechtermuisknop en kies Inventory Doctor. Er opent een venster met een tabel van elk item in elke container op de 9 tegels rond je personage, en een gele omlijning toont het gescande gebied in de wereld. De tabel volgt je terwijl je beweegt.
+
+Hij kijkt in:
+- Je inventaris en de tassen die je draagt
+- Meubelcontainers: koelkasten, planken, kratten, enz.
+- Items op de grond
+- Lijken
+- Kofferbakken, handschoenenkastjes en stoelen van voertuigen
+- In multiplayer, voor admins, de andere spelers die in het gebied staan
+
+Ook tassen worden geopend, tot op elke diepte.
+
+Voor elk item toont hij:
+- De tegel waarop het ligt
+- De naam en het itemtype
+- De staat
+- Het gewicht
+- De container waarin het zit, met het volledige pad wanneer het in een tas zit (bijvoorbeeld Koelkast > Tas)
+- Een rood waarschuwingssymbool wanneer iets kapot lijkt (staat lager dan 0, negatief gewicht, ontbrekend icoon, fouten wanneer het spel het leest). De detectie is niet perfect: een gemarkeerd item kan in orde zijn en een kapot item kan worden gemist, het helpt je alleen om het probleem sneller te vinden.
+
+Beweeg de muis over een rij om in de wereld te omlijnen waar dat item in zit: het meubel, het lijk, het voertuig, het item op de grond of de speler. Let op: een omlijning kan verborgen zijn wanneer een muur of iets anders het zicht tussen jou en het omlijnde blokkeert.
+
+Mogelijke acties per rij:
+- Verwijderen: verwijdert alleen dat ene item. Een item dat gedragen of vastgehouden wordt, wordt eerst afgelegd.
+- Resetten: vervangt het item door een gloednieuw exemplaar van hetzelfde type, op dezelfde plek. Alles wat het bevatte gaat verloren: de inhoud van een tas, de vloeistof in een fles.
+
+Meubels zelf worden nooit verwijderd of gereset, alleen de items erin.
+
+[h2]Belangrijk[/h2]
+Dit is een debugtool: het verwijderen of resetten van items kan niet ongedaan worden gemaakt. Gebruik het bewust, en maak een back-up van je save als je twijfelt.
+
+Ik heb uiteraard niet elk denkbaar scenario kunnen testen: er zitten belachelijk veel items in dit spel, en dan hebben we het nog niet eens over mods. Als iets zich niet gedraagt zoals verwacht, een reset die misgaat, een item dat gemarkeerd zou moeten worden maar dat niet is, of iets anders, laat het me dan weten in de reacties en ik doe mijn best om het af te handelen.
+
+[h2]Vragen en antwoorden[/h2]
+Q: Kan ik het veilig toevoegen of verwijderen midden in een save?
+A: Ja. Inventory Doctor slaat niets op in je wereld: het is gemaakt om toegevoegd te worden, het kapotte item te repareren en weer verwijderd te worden.
+
+Q: Werkt het in multiplayer?
+A: Ja. In singleplayer kan iedereen het gebruiken. In multiplayer is het voorbehouden aan admins, en elke actie wordt door de server gecontroleerd.
+
+Q: Kan het items terughalen van een mod die ik heb verwijderd?
+A: Nee. Bij het laden van een save gooit het spel zelf elk item weg waarvan de mod niet meer geïnstalleerd is, dus die komen nooit bij Inventory Doctor aan.
+
+Q: Ik heb een geval gevonden dat het niet afhandelt, wat moet ik doen?
+A: Plaats het in de reacties met de kolommen "Naam" en "Voorwerp" van de betreffende rij, de mod waar het volgens jou vandaan komt als dat van toepassing is en, indien mogelijk, de fout uit je console.txt (in C:\Users\JouwNaam\Zomboid).
+
+Deel gerust je feedback, bugmeldingen en ideeën in de reacties, ik lees alles.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

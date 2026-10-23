@@ -1,0 +1,58 @@
+[h2]Vad det är[/h2]
+Inventory Doctor är ett utvecklings- och felsökningsverktyg. Det låter dig se vad som verkligen finns i varje behållare runt din karaktär och laga de föremål som är trasiga: föremål utan ikon, föremål med negativ vikt, föremål som fastnat i ditt inventarie och inte går att släppa eller flytta, föremål som får spelet att kasta fel, osv.
+
+Om du letar efter ett verktyg för att felsöka trasiga möbler eller rutor, kolla in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Så fungerar det[/h2]
+Högerklicka var som helst och välj Inventory Doctor. Ett fönster öppnas med en tabell över varje föremål i varje behållare på de 9 rutorna runt din karaktär, och en gul kontur visar det skannade området i världen. Tabellen följer med dig när du rör dig.
+
+Det letar i:
+- Ditt inventarie och väskorna du bär
+- Behållare i möbler: kylskåp, hyllor, lådor, osv.
+- Föremål på marken
+- Lik
+- Fordons bagageutrymmen, handskfack och säten
+- I multiplayer, för administratörer, de andra spelarna som står inom området
+
+Väskor öppnas också, hur djupt de än ligger.
+
+För varje föremål visas:
+- Rutan det ligger på
+- Dess namn och föremålstyp
+- Dess skick
+- Dess vikt
+- Behållaren som rymmer det, med hela sökvägen när det ligger i en väska (till exempel Kylskåp > Väska)
+- En röd varningssymbol när något ser trasigt ut (skick under 0, negativ vikt, saknad ikon, fel när spelet läser det). Upptäckten är inte perfekt: ett markerat föremål kan vara i ordning och ett trasigt kan missas, den hjälper dig bara att hitta problemet snabbare.
+
+Håll muspekaren över en rad för att markera det som rymmer föremålet med en kontur i världen: möbeln, liket, fordonet, föremålet på marken eller spelaren. Var försiktig: en kontur kan vara dold när en vägg eller något annat skymmer sikten mellan dig och det.
+
+Möjliga åtgärder på varje rad:
+- Radera: tar bort just det enda föremålet. Ett föremål som bärs eller hålls tas av först.
+- Återställ: ersätter föremålet med ett helt nytt av samma typ, på samma plats. Allt det innehöll går förlorat: innehållet i en väska, vätskan i en flaska.
+
+Själva möblerna raderas eller återställs aldrig, bara föremålen i dem.
+
+[h2]Viktigt[/h2]
+Det här är ett felsökningsverktyg: radering eller återställning av föremål kan inte ångras. Använd det med eftertanke och ha en säkerhetskopia av ditt sparade spel om du är osäker.
+
+Jag har förstås inte kunnat testa varenda scenario: det finns en löjlig mängd föremål i det här spelet, och då har vi inte ens pratat om mods. Om något inte beter sig som väntat, en återställning som går fel, ett föremål som borde flaggas men inte gör det, eller något annat, säg gärna till i kommentarsfältet så gör jag mitt bästa för att hantera det.
+
+[h2]Frågor och svar[/h2]
+Q: Är det säkert att lägga till eller ta bort den mitt i ett sparat spel?
+A: Ja. Inventory Doctor sparar ingenting i din värld: den är gjord för att läggas till, laga det trasiga föremålet och tas bort igen.
+
+Q: Fungerar det i multiplayer?
+A: Ja. I singleplayer kan alla använda det. I multiplayer är det förbehållet administratörer, och varje åtgärd kontrolleras av servern.
+
+Q: Kan det få tillbaka föremål från en mod jag har tagit bort?
+A: Nej. När ett sparat spel laddas tar spelet självt bort alla föremål vars mod inte längre är installerad, så de når aldrig Inventory Doctor.
+
+Q: Jag har hittat ett fall som det inte hanterar, vad ska jag göra?
+A: Skriv det i kommentarsfältet med kolumnerna "Namn" och "Föremål" från raden i fråga, den mod du tror att det kommer från om det är aktuellt och, om möjligt, felet från din console.txt (i C:\Users\DittNamn\Zomboid).
+
+Dela gärna din feedback, dina buggrapporter och idéer i kommentarsfältet, jag läser allt.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

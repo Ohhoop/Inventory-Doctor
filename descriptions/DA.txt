@@ -1,0 +1,58 @@
+[h2]Hvad det er[/h2]
+Inventory Doctor er et udviklings- og fejlfindingsværktøj. Det lader dig se, hvad der virkelig ligger i hver beholder omkring din karakter, og reparere de genstande, der er gået i stykker: genstande uden ikon, genstande med negativ vægt, genstande der sidder fast i dit inventar og ikke kan smides eller flyttes, genstande som spillet kaster fejl på, osv.
+
+Hvis du leder efter et værktøj til at fejlfinde ødelagte møbler eller tiles, så tjek [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url] ud.
+
+[h2]Sådan virker det[/h2]
+Højreklik hvor som helst, og vælg Inventory Doctor. Et vindue åbner med en tabel over hver genstand i hver beholder på de 9 felter omkring din karakter, og en gul kontur viser det scannede område i verdenen. Tabellen følger dig, når du bevæger dig.
+
+Den kigger i:
+- Dit inventar og de tasker, du bærer
+- Møbelbeholdere: køleskabe, hylder, kasser osv.
+- Genstande på jorden
+- Lig
+- Bagagerum, handskerum og sæder i køretøjer
+- I multiplayer, for administratorer, de andre spillere, der står i området
+
+Tasker åbnes også, uanset hvor dybt de ligger.
+
+For hver genstand viser den:
+- Det felt, den ligger på
+- Dens navn og genstandstype
+- Dens tilstand
+- Dens vægt
+- Den beholder, der rummer den, med den fulde sti, når den ligger i en taske (for eksempel Køleskab > Taske)
+- Et rødt advarselssymbol, når noget ser ødelagt ud (tilstand under 0, negativ vægt, manglende ikon, fejl når spillet læser den). Registreringen er ikke perfekt: en markeret genstand kan være i orden, og en ødelagt kan blive overset, den hjælper dig bare med at finde problemet hurtigere.
+
+Hold musen over en række for at fremhæve det, der rummer genstanden, i verdenen med en kontur: møblet, liget, køretøjet, genstanden på jorden eller spilleren. Pas på: en kontur kan være skjult, når en væg eller noget andet blokerer udsynet mellem dig og det.
+
+Mulige handlinger på hver række:
+- Slet: fjerner netop den ene genstand. En båret eller holdt genstand tages først af.
+- Nulstil: erstatter genstanden med en helt ny af samme type, på samme sted. Alt, hvad den indeholdt, går tabt: indholdet af en taske, væsken i en flaske.
+
+Selve møblerne bliver aldrig slettet eller nulstillet, kun genstandene i dem.
+
+[h2]Vigtigt[/h2]
+Dette er et fejlfindingsværktøj: sletning eller nulstilling af genstande kan ikke fortrydes. Brug det med omtanke, og tag en sikkerhedskopi af dit gemte spil, hvis du er i tvivl.
+
+Jeg har naturligvis ikke kunnet teste hvert eneste scenarie: der er en absurd mængde genstande i dette spil, og det er uden overhovedet at tale om mods. Hvis noget ikke opfører sig som forventet, en nulstilling der går galt, en genstand der burde markeres og ikke gør det, eller noget helt tredje, så sig til i kommentarfeltet, så gør jeg mit bedste for at håndtere det.
+
+[h2]Spørgsmål og svar[/h2]
+Q: Er det sikkert at tilføje eller fjerne det midt i et save?
+A: Ja. Inventory Doctor gemmer intet i din verden: det er lavet til at blive tilføjet, rette den ødelagte genstand og blive fjernet igen.
+
+Q: Virker det i multiplayer?
+A: Ja. I singleplayer kan alle bruge det. I multiplayer er det forbeholdt administratorer, og hver handling kontrolleres af serveren.
+
+Q: Kan det hente genstande tilbage fra en mod, jeg har fjernet?
+A: Nej. Når et save indlæses, smider spillet selv alle genstande væk, hvis mod ikke længere er installeret, så de når aldrig frem til Inventory Doctor.
+
+Q: Jeg har fundet et tilfælde, det ikke håndterer, hvad skal jeg gøre?
+A: Skriv det i kommentarfeltet med kolonnerne "Navn" og "Genstand" fra den pågældende række, den mod, du tror, det stammer fra, hvis relevant, og om muligt fejlen fra din console.txt (i C:\Users\DitNavn\Zomboid).
+
+Del gerne din feedback, dine fejlrapporter og idéer i kommentarfeltet, jeg læser alt.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

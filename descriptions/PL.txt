@@ -1,0 +1,58 @@
+[h2]Czym jest[/h2]
+Inventory Doctor to narzędzie deweloperskie i debugujące. Pozwala zobaczyć, co naprawdę znajduje się w każdym pojemniku wokół twojej postaci, i naprawić zepsute przedmioty: przedmioty bez ikony, przedmioty z ujemną wagą, przedmioty utknięte w ekwipunku, których nie da się upuścić ani przenieść, przedmioty, przy których gra zgłasza błędy itp.
+
+Jeśli szukasz narzędzia do debugowania zepsutych mebli lub kafelków, sprawdź [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Jak to działa[/h2]
+Kliknij prawym przyciskiem w dowolnym miejscu i wybierz Inventory Doctor. Otworzy się okno z tabelą wszystkich przedmiotów we wszystkich pojemnikach na 9 polach wokół twojej postaci, a żółty obrys pokaże w świecie skanowany obszar. Tabela podąża za tobą, gdy się poruszasz.
+
+Przeszukuje:
+- Twój ekwipunek i noszone torby
+- Pojemniki w meblach: lodówki, półki, skrzynie itp.
+- Przedmioty na ziemi
+- Zwłoki
+- Bagażniki, schowki i siedzenia pojazdów
+- W trybie wieloosobowym, dla adminów, innych graczy stojących w obszarze
+
+Torby też są otwierane, na dowolnym poziomie zagnieżdżenia.
+
+Dla każdego przedmiotu pokazuje:
+- Pole, na którym się znajduje
+- Jego nazwę i typ przedmiotu
+- Jego stan
+- Jego wagę
+- Pojemnik, w którym się znajduje, z pełną ścieżką, gdy leży w torbie (na przykład Lodówka > Torba)
+- Czerwony symbol ostrzeżenia, gdy coś wygląda na zepsute (stan poniżej 0, ujemna waga, brakująca ikona, błędy przy odczycie przez grę). Wykrywanie nie jest idealne: oznaczony przedmiot może być w porządku, a zepsuty może zostać pominięty, to tylko pomoc w szybszym znalezieniu problemu.
+
+Najedź na wiersz, aby obrysować w świecie to, w czym znajduje się ten przedmiot: mebel, zwłoki, pojazd, przedmiot na ziemi lub gracza. Uwaga: obrys może być ukryty, gdy ściana lub coś innego zasłania widok między tobą a obrysowanym obiektem.
+
+Możliwe akcje w każdym wierszu:
+- Usuń: usuwa tylko ten jeden przedmiot. Przedmiot noszony lub trzymany w ręku zostaje najpierw zdjęty.
+- Resetuj: zastępuje przedmiot zupełnie nowym tego samego typu, w tym samym miejscu. Wszystko, co zawierał, przepada: zawartość torby, płyn w butelce.
+
+Same meble nigdy nie są usuwane ani resetowane, tylko przedmioty w ich wnętrzu.
+
+[h2]Ważne[/h2]
+To narzędzie do debugowania: usunięcia ani zresetowania przedmiotów nie można cofnąć. Używaj go świadomie i zrób kopię zapasową zapisu, jeśli nie masz pewności.
+
+Oczywiście nie byłem w stanie przetestować każdego scenariusza: w tej grze jest absurdalna liczba przedmiotów, i to nie wspominając o modach. Jeśli coś nie działa zgodnie z oczekiwaniami, reset, który pójdzie źle, przedmiot, który powinien zostać oznaczony, a nie jest, czy cokolwiek innego, daj mi znać w komentarzach, a zrobię, co w mojej mocy, żeby to obsłużyć.
+
+[h2]Pytania i odpowiedzi[/h2]
+Q: Czy można go bezpiecznie dodać lub usunąć w trakcie zapisu gry?
+A: Tak. Inventory Doctor nic nie zapisuje w twoim świecie: jest zaprojektowany, by go dodać, naprawić zepsuty przedmiot i usunąć.
+
+Q: Czy to działa w trybie wieloosobowym?
+A: Tak. W grze jednoosobowej może go używać każdy. W trybie wieloosobowym jest zarezerwowany dla adminów, a każdą akcję sprawdza serwer.
+
+Q: Czy może przywrócić przedmioty z moda, którego usunąłem?
+A: Nie. Podczas wczytywania zapisu sama gra odrzuca każdy przedmiot, którego mod nie jest już zainstalowany, więc nigdy nie trafiają one do Inventory Doctor.
+
+Q: Znalazłem przypadek, którego nie obsługuje, co mam zrobić?
+A: Napisz o nim w komentarzach, podając kolumny Nazwa i Przedmiot z danego wiersza, mod, z którego twoim zdaniem pochodzi (jeśli dotyczy), oraz, jeśli to możliwe, błąd ze swojego console.txt (w C:\Users\TwojaNazwa\Zomboid).
+
+Śmiało dziel się opiniami, zgłoszeniami błędów i pomysłami w komentarzach, czytam wszystko.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

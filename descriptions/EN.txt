@@ -1,0 +1,58 @@
+[h2]What it is[/h2]
+Inventory Doctor is a development and debugging tool. It lets you look at what is really inside every container around your character, and fix the items that are broken: items with no icon, items with a negative weight, items stuck in your inventory that cannot be dropped or moved, items the game throws errors on, etc.
+
+If you are looking for a tool to debug broken furniture or tiles, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]How it works[/h2]
+Right-click anywhere and choose Inventory Doctor. A window opens with a table of every item in every container on the 9 tiles around your character, and a yellow outline shows the scanned area in the world. The table follows you as you move.
+
+It looks into:
+- Your inventory and the bags you carry
+- Furniture containers: fridges, shelves, crates, etc.
+- Items on the ground
+- Corpses
+- Vehicle trunks, glove boxes and seats
+- In multiplayer, for admins, the other players standing in the area
+
+Bags are opened too, at any depth.
+
+For each item it shows:
+- The tile it is on
+- Its name and item type
+- Its condition
+- Its weight
+- The container holding it, with the full path when it sits in a bag (for example Fridge > Bag)
+- A red alert symbol when something looks broken (condition below 0, negative weight, missing icon, errors when the game reads it). Detection is not perfect: a flagged item might be fine and a broken one might be missed, it is only there to help you find the issue faster.
+
+Hover a row to outline what holds that item in the world: the furniture, the corpse, the vehicle, the item on the ground or the player. Be careful: an outline can be hidden when a wall or something else blocks the view between you and it.
+
+Possible actions on each row:
+- Delete: removes that single item. A worn or held item is taken off first.
+- Reset: replaces the item with a brand new one of the same type, at the same place. Everything it held is lost: the contents of a bag, the liquid of a bottle.
+
+Furniture itself is never deleted or reset, only the items inside it.
+
+[h2]Important[/h2]
+This is a debugging tool: deleting or resetting items cannot be undone. Use it knowingly, and keep a backup of your save if you are unsure.
+
+I was obviously not able to test every single scenario: there is a ridiculous amount of items in this game, and that is without even talking about mods. If something does not behave as expected, a reset that goes wrong, an item that should be flagged and is not, or anything else, please let me know in the comment section and I will do my best to handle it.
+
+[h2]Q&A[/h2]
+Q: Is it safe to add or remove mid-save?
+A: Yes. Inventory Doctor saves nothing in your world: it is designed to be added, fix the broken item and be removed.
+
+Q: Does it work in multiplayer?
+A: Yes. In single player anyone can use it. In multiplayer it is reserved for admins, and every action is checked by the server.
+
+Q: Can it bring back items from a mod I removed?
+A: No. When a save loads, the game itself drops every item whose mod is no longer installed, so they never reach Inventory Doctor.
+
+Q: I found a case it does not handle, what should I do?
+A: Post it in the comment section with the "Name" and "Item" columns of the row in question, the mod you think it comes from if applicable and, if possible, the error from your console.txt (in C:\Users\YourName\Zomboid).
+
+Feel free to share your feedback, bug reports and ideas in the comment section, I read everything.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Vak",
+    "UI_InventoryDoctor_ColContainer": "Container",
+    "UI_InventoryDoctor_ColName": "Naam",
+    "UI_InventoryDoctor_ColItem": "Voorwerp",
+    "UI_InventoryDoctor_ColCondition": "Staat",
+    "UI_InventoryDoctor_ColWeight": "Gewicht",
+    "UI_InventoryDoctor_ColActions": "Acties",
+    "UI_InventoryDoctor_AlertNegativeCondition": "De staat is lager dan 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Het gewicht is negatief.",
+    "UI_InventoryDoctor_AlertIcon": "Het pictogram is niet te vinden.",
+    "UI_InventoryDoctor_AlertErrors": "Het spel geeft fouten bij het lezen.",
+    "UI_InventoryDoctor_ConfirmReset": "Dit voorwerp vervangen door een nieuw?\n%1\nDe huidige staat gaat verloren.",
+    "UI_InventoryDoctor_ConfirmDelete": "Dit voorwerp verwijderen?\n%1\nDit kan niet ongedaan worden gemaakt.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Het is een container: alles erin gaat verloren.",
+    "UI_InventoryDoctor_ConfirmFluid": "Het bevat een vloeistof: de vloeistof gaat verloren.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Het wordt gedragen of vastgehouden: het wordt eerst afgedaan.",
+    "UI_InventoryDoctor_TooltipReset": "Vervangt dit voorwerp door een nieuw.",
+    "UI_InventoryDoctor_TooltipDelete": "Verwijdert dit voorwerp."
+}

@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Petak",
+    "UI_InventoryDoctor_ColContainer": "Wadah",
+    "UI_InventoryDoctor_ColName": "Nama",
+    "UI_InventoryDoctor_ColItem": "Barang",
+    "UI_InventoryDoctor_ColCondition": "Kondisi",
+    "UI_InventoryDoctor_ColWeight": "Berat",
+    "UI_InventoryDoctor_ColActions": "Aksi",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Kondisinya di bawah 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Beratnya negatif.",
+    "UI_InventoryDoctor_AlertIcon": "Ikonnya tidak ditemukan.",
+    "UI_InventoryDoctor_AlertErrors": "Game memunculkan error saat membacanya.",
+    "UI_InventoryDoctor_ConfirmReset": "Ganti barang ini dengan yang baru?\n%1\nKondisinya saat ini akan hilang.",
+    "UI_InventoryDoctor_ConfirmDelete": "Hapus barang ini?\n%1\nTindakan ini tidak bisa dibatalkan.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Ini adalah wadah: semua isinya akan hilang.",
+    "UI_InventoryDoctor_ConfirmFluid": "Barang ini berisi cairan: cairannya akan hilang.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Barang ini sedang dipakai atau dipegang: akan dilepas terlebih dahulu.",
+    "UI_InventoryDoctor_TooltipReset": "Mengganti barang ini dengan yang baru.",
+    "UI_InventoryDoctor_TooltipDelete": "Menghapus barang ini."
+}

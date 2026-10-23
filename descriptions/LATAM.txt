@@ -1,0 +1,58 @@
+[h2]Qué es[/h2]
+Inventory Doctor es una herramienta de desarrollo y depuración. Te permite ver lo que realmente hay dentro de cada contenedor alrededor de tu personaje y arreglar los ítems que están rotos: ítems sin ícono, ítems con peso negativo, ítems atascados en tu inventario que no se pueden soltar ni mover, ítems con los que el juego lanza errores, etc.
+
+Si buscas una herramienta para depurar muebles o tiles rotos, échale un vistazo a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Cómo funciona[/h2]
+Haz clic derecho en cualquier lugar y elige Inventory Doctor. Se abre una ventana con una tabla de cada ítem en cada contenedor de los 9 tiles alrededor de tu personaje, y un contorno amarillo muestra en el mundo el área analizada. La tabla te sigue mientras te mueves.
+
+Revisa:
+- Tu inventario y las bolsas que llevas
+- Los contenedores de muebles: refrigeradores, repisas, cajas, etc.
+- Los ítems en el suelo
+- Los cadáveres
+- Las cajuelas, guanteras y asientos de los vehículos
+- En multijugador, para los admins, los demás jugadores que estén en el área
+
+Las bolsas también se abren, a cualquier profundidad.
+
+Para cada ítem muestra:
+- El tile en el que está
+- Su nombre y su tipo de ítem
+- Su condición
+- Su peso
+- El contenedor que lo guarda, con la ruta completa cuando está dentro de una bolsa (por ejemplo Refrigerador > Bolsa)
+- Un símbolo de alerta rojo cuando algo parece roto (estado por debajo de 0, peso negativo, ícono faltante, errores cuando el juego lo lee). La detección no es perfecta: un ítem marcado puede estar bien y uno roto puede pasar desapercibido, solo sirve para ayudarte a encontrar el problema más rápido.
+
+Pasa el mouse sobre una fila para resaltar en el mundo lo que guarda ese ítem: el mueble, el cadáver, el vehículo, el ítem en el suelo o el jugador. Ojo: el contorno puede quedar oculto cuando una pared u otra cosa bloquea la vista entre tú y lo resaltado.
+
+Acciones posibles en cada fila:
+- Eliminar: quita solo ese ítem. Un ítem que se lleva puesto o en la mano se retira primero.
+- Restablecer: reemplaza el ítem con uno nuevo del mismo tipo, en el mismo lugar. Todo lo que contenía se pierde: el contenido de una bolsa, el líquido de una botella.
+
+Los muebles en sí nunca se eliminan ni se restablecen, solo los ítems que tienen dentro.
+
+[h2]Importante[/h2]
+Esta es una herramienta de depuración: eliminar o restablecer ítems no se puede deshacer. Úsala sabiendo lo que haces y, si tienes dudas, guarda un respaldo de tu partida.
+
+Obviamente no pude probar cada escenario posible: este juego tiene una cantidad ridícula de ítems, y eso sin siquiera hablar de los mods. Si algo no se comporta como debería, un restablecimiento que sale mal, un ítem que debería marcarse y no se marca, o cualquier otra cosa, avísame en la sección de comentarios y haré lo posible por resolverlo.
+
+[h2]Preguntas y respuestas[/h2]
+Q: ¿Es seguro agregarlo o quitarlo en una partida empezada?
+A: Sí. Inventory Doctor no guarda nada en tu mundo: está pensado para agregarlo, arreglar el ítem roto y quitarlo.
+
+Q: ¿Funciona en multijugador?
+A: Sí. En un jugador cualquiera puede usarlo. En multijugador está reservado para los admins, y el servidor verifica cada acción.
+
+Q: ¿Puede recuperar ítems de un mod que quité?
+A: No. Al cargar una partida, el propio juego descarta cada ítem cuyo mod ya no está instalado, así que nunca llegan a Inventory Doctor.
+
+Q: Encontré un caso que no maneja, ¿qué hago?
+A: Publícalo en la sección de comentarios con las columnas "Nombre" y "Objeto" de la fila en cuestión, el mod del que crees que viene si aplica y, si es posible, el error de tu console.txt (en C:\Users\TuNombre\Zomboid).
+
+Siéntete libre de compartir tus comentarios, reportes de bugs e ideas en la sección de comentarios, leo todo.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

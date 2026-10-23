@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Kare",
+    "UI_InventoryDoctor_ColContainer": "Kap",
+    "UI_InventoryDoctor_ColName": "Ad",
+    "UI_InventoryDoctor_ColItem": "Eşya",
+    "UI_InventoryDoctor_ColCondition": "Durum",
+    "UI_InventoryDoctor_ColWeight": "Ağırlık",
+    "UI_InventoryDoctor_ColActions": "Eylemler",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Durumu 0'ın altında.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Ağırlığı negatif.",
+    "UI_InventoryDoctor_AlertIcon": "Simgesi bulunamıyor.",
+    "UI_InventoryDoctor_AlertErrors": "Oyun onu okurken hata veriyor.",
+    "UI_InventoryDoctor_ConfirmReset": "Bu eşya yenisiyle değiştirilsin mi?\n%1\nMevcut durumu kaybolacak.",
+    "UI_InventoryDoctor_ConfirmDelete": "Bu eşya silinsin mi?\n%1\nBu işlem geri alınamaz.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "Bu bir kap: içindeki her şey kaybolacak.",
+    "UI_InventoryDoctor_ConfirmFluid": "İçinde sıvı var: sıvı kaybolacak.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Giyiliyor veya elde tutuluyor: önce çıkarılacak.",
+    "UI_InventoryDoctor_TooltipReset": "Bu eşyayı yenisiyle değiştirir.",
+    "UI_InventoryDoctor_TooltipDelete": "Bu eşyayı siler."
+}

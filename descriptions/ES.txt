@@ -1,0 +1,58 @@
+[h2]Qué es[/h2]
+Inventory Doctor es una herramienta de desarrollo y depuración. Te permite ver lo que hay realmente dentro de cada contenedor alrededor de tu personaje y arreglar los objetos que están rotos: objetos sin icono, objetos con peso negativo, objetos atascados en tu inventario que no se pueden soltar ni mover, objetos con los que el juego lanza errores, etc.
+
+Si buscas una herramienta para depurar muebles o tiles rotos, echa un vistazo a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Cómo funciona[/h2]
+Haz clic derecho en cualquier sitio y elige Inventory Doctor. Se abre una ventana con una tabla de cada objeto de cada contenedor en las 9 casillas alrededor de tu personaje, y un contorno amarillo muestra en el mundo la zona analizada. La tabla te sigue mientras te mueves.
+
+Revisa:
+- Tu inventario y las bolsas que llevas
+- Los contenedores de los muebles: neveras, estanterías, cajas, etc.
+- Los objetos en el suelo
+- Los cadáveres
+- Los maleteros, guanteras y asientos de los vehículos
+- En multijugador, para los administradores, los demás jugadores que estén en la zona
+
+También se abren las bolsas, a cualquier profundidad.
+
+Para cada objeto muestra:
+- La casilla en la que está
+- Su nombre y su tipo de objeto
+- Su estado
+- Su peso
+- El contenedor que lo guarda, con la ruta completa cuando está dentro de una bolsa (por ejemplo Nevera > Bolsa)
+- Un símbolo de alerta rojo cuando algo parece roto (estado por debajo de 0, peso negativo, icono ausente, errores cuando el juego lo lee). La detección no es perfecta: un objeto marcado puede estar bien y uno roto puede pasar desapercibido, solo sirve para ayudarte a encontrar el problema más rápido.
+
+Pasa el ratón por encima de una fila para resaltar en el mundo lo que contiene ese objeto: el mueble, el cadáver, el vehículo, el objeto en el suelo o el jugador. Cuidado: el contorno puede quedar oculto cuando una pared u otra cosa bloquea la vista entre tú y él.
+
+Acciones posibles en cada fila:
+- Eliminar: quita solo ese objeto. Si lo llevas puesto o en la mano, primero se quita.
+- Restablecer: sustituye el objeto por uno completamente nuevo del mismo tipo, en el mismo lugar. Se pierde todo lo que contenía: el contenido de una bolsa, el líquido de una botella.
+
+Los muebles en sí nunca se eliminan ni se restablecen, solo los objetos que contienen.
+
+[h2]Importante[/h2]
+Esta es una herramienta de depuración: eliminar o restablecer objetos no se puede deshacer. Úsala con conocimiento de causa y, si tienes dudas, guarda una copia de seguridad de tu partida.
+
+Evidentemente no he podido probar todos los escenarios: hay una cantidad ridícula de objetos en este juego, y eso sin hablar siquiera de los mods. Si algo no se comporta como debería, un restablecimiento que sale mal, un objeto que debería marcarse y no se marca, o cualquier otra cosa, avísame en la sección de comentarios y haré todo lo posible por solucionarlo.
+
+[h2]Preguntas y respuestas[/h2]
+Q: ¿Es seguro añadirlo o quitarlo en una partida empezada?
+A: Sí. Inventory Doctor no guarda nada en tu mundo: está pensado para añadirlo, arreglar el objeto roto y quitarlo.
+
+Q: ¿Funciona en multijugador?
+A: Sí. En un jugador cualquiera puede usarlo. En multijugador está reservado a los administradores, y el servidor comprueba cada acción.
+
+Q: ¿Puede recuperar objetos de un mod que he quitado?
+A: No. Al cargar una partida, el propio juego descarta todos los objetos cuyo mod ya no está instalado, así que nunca llegan a Inventory Doctor.
+
+Q: He encontrado un caso que no gestiona, ¿qué debo hacer?
+A: Publícalo en la sección de comentarios con las columnas "Nombre" y "Objeto" de la fila en cuestión, el mod del que crees que procede si es el caso y, si es posible, el error de tu console.txt (en C:\Users\TuNombre\Zomboid).
+
+Siéntete libre de compartir tus opiniones, informes de bugs e ideas en la sección de comentarios, lo leo todo.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

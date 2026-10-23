@@ -1,0 +1,58 @@
+[h2]Co to je[/h2]
+Inventory Doctor je nástroj pro vývoj a ladění. Umožňuje vám podívat se, co se skutečně nachází v každém kontejneru kolem vaší postavy, a opravit předměty, které jsou rozbité: předměty bez ikony, předměty se zápornou hmotností, předměty zaseknuté ve vašem inventáři, které nelze zahodit ani přesunout, předměty, u kterých hra hází chyby, atd.
+
+Pokud hledáte nástroj pro ladění rozbitého nábytku nebo dlaždic, podívejte se na [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3811138128]Tile Doctor[/url].
+
+[h2]Jak to funguje[/h2]
+Klikněte kamkoli pravým tlačítkem a zvolte Inventory Doctor. Otevře se okno s tabulkou všech předmětů ve všech kontejnerech na 9 dlaždicích kolem vaší postavy, a žlutý obrys ukazuje ve světě prohledávanou oblast. Tabulka vás při pohybu následuje.
+
+Prohledává:
+- Váš inventář a tašky, které nesete
+- Kontejnery v nábytku: lednice, police, bedny atd.
+- Předměty na zemi
+- Mrtvoly
+- Zavazadlové prostory, schránky v palubní desce a sedadla vozidel
+- V multiplayeru, pro administrátory, ostatní hráče, kteří stojí v oblasti
+
+Otevírají se i tašky, v libovolné hloubce.
+
+U každého předmětu zobrazuje:
+- Dlaždici, na které leží
+- Jeho název a typ předmětu
+- Jeho stav
+- Jeho hmotnost
+- Kontejner, ve kterém je, s celou cestou, když leží v tašce (například Lednice > Taška)
+- Červený symbol upozornění, když něco vypadá rozbitě (stav pod 0, záporná hmotnost, chybějící ikona, chyby při jeho načítání hrou). Detekce není dokonalá: označený předmět může být v pořádku a rozbitý může uniknout, slouží jen k tomu, abyste problém našli rychleji.
+
+Najeďte myší na řádek a ve světě se obrysem zvýrazní to, v čem daný předmět je: nábytek, mrtvola, vozidlo, předmět na zemi nebo hráč. Pozor: obrys může být skrytý, když výhled mezi vámi a ním blokuje zeď nebo něco jiného.
+
+Možné akce na každém řádku:
+- Smazat: odstraní jen tento jeden předmět. Oblečený nebo držený předmět se nejprve sundá.
+- Obnovit: nahradí předmět zbrusu novým předmětem stejného typu na stejném místě. Vše, co obsahoval, se ztratí: obsah tašky, tekutina v láhvi.
+
+Samotný nábytek se nikdy nesmaže ani neobnoví, pouze předměty v něm.
+
+[h2]Důležité[/h2]
+Toto je ladicí nástroj: smazání nebo obnovení předmětů nelze vrátit zpět. Používejte ho s rozmyslem, a pokud si nejste jisti, zálohujte si uloženou hru.
+
+Samozřejmě jsem nemohl otestovat úplně každý scénář: v této hře je směšné množství předmětů, a to ani nemluvím o modech. Pokud se něco nechová podle očekávání, obnovení, které se nepovede, předmět, který by měl být označen a není, nebo cokoli jiného, dejte mi prosím vědět v komentářích a udělám, co bude v mých silách, abych to vyřešil.
+
+[h2]Otázky a odpovědi[/h2]
+Q: Je bezpečné ho přidat nebo odebrat během rozehrané hry?
+A: Ano. Inventory Doctor do vašeho světa nic neukládá: je navržený tak, aby se přidal, opravil rozbitý předmět a zase odebral.
+
+Q: Funguje to v multiplayeru?
+A: Ano. Ve hře pro jednoho hráče ho může použít kdokoli. V multiplayeru je vyhrazen administrátorům a každou akci ověřuje server.
+
+Q: Dokáže vrátit předměty z modu, který jsem odebral?
+A: Ne. Při načtení uložené hry sama hra zahodí každý předmět, jehož mod už není nainstalovaný, takže se k Inventory Doctor nikdy nedostanou.
+
+Q: Našel jsem případ, který nezvládá, co mám dělat?
+A: Napište ho do komentářů se sloupci Název a Předmět z daného řádku, s modem, ze kterého podle vás pochází (pokud nějaký), a pokud možno i s chybou ze svého console.txt (v C:\Users\VaseJmeno\Zomboid).
+
+Klidně sdílejte svou zpětnou vazbu, hlášení chyb a nápady v komentářích, čtu všechno.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3820498836
+Mod ID: InventoryDoctor

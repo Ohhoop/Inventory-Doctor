@@ -1,0 +1,7 @@
+id=InventoryDoctor
+name=Inventory Doctor
+description=Inspects the containers around the player and resets or deletes broken items.
+modversion=1.0.2
+poster=poster.png
+icon=poster.png
+versionMin=42.0

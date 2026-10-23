@@ -1,0 +1,20 @@
+{
+    "UI_InventoryDoctor_ColSquare": "Case",
+    "UI_InventoryDoctor_ColContainer": "Contenant",
+    "UI_InventoryDoctor_ColName": "Nom",
+    "UI_InventoryDoctor_ColItem": "Objet",
+    "UI_InventoryDoctor_ColCondition": "État",
+    "UI_InventoryDoctor_ColWeight": "Poids",
+    "UI_InventoryDoctor_ColActions": "Actions",
+    "UI_InventoryDoctor_AlertNegativeCondition": "Son état est inférieur à 0.",
+    "UI_InventoryDoctor_AlertNegativeWeight": "Son poids est négatif.",
+    "UI_InventoryDoctor_AlertIcon": "Son icône est introuvable.",
+    "UI_InventoryDoctor_AlertErrors": "Le jeu lance des erreurs en le lisant.",
+    "UI_InventoryDoctor_ConfirmReset": "Remplacer cet objet par un neuf ?\n%1\nSon état actuel sera perdu.",
+    "UI_InventoryDoctor_ConfirmDelete": "Supprimer cet objet ?\n%1\nCette action est irréversible.",
+    "UI_InventoryDoctor_ConfirmHoldsItems": "C'est un contenant : tout ce qu'il contient sera perdu.",
+    "UI_InventoryDoctor_ConfirmFluid": "Il contient un liquide : le liquide sera perdu.",
+    "UI_InventoryDoctor_ConfirmEquipped": "Il est porté ou tenu : il sera d'abord retiré.",
+    "UI_InventoryDoctor_TooltipReset": "Remplace cet objet par un neuf.",
+    "UI_InventoryDoctor_TooltipDelete": "Supprime cet objet."
+}
