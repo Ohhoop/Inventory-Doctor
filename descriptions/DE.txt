@@ -38,6 +38,9 @@ Dies ist ein Debugging-Werkzeug: Das Löschen oder Zurücksetzen von Gegenständ
 Ich konnte natürlich nicht jedes einzelne Szenario testen: Es gibt eine lächerliche Menge an Gegenständen in diesem Spiel, und da haben wir noch nicht einmal von Mods gesprochen. Wenn sich etwas nicht wie erwartet verhält, ein Zurücksetzen schiefgeht, ein Gegenstand nicht markiert wird, obwohl er sollte, oder irgendetwas anderes, sag mir bitte im Kommentarbereich Bescheid, und ich tue mein Bestes, um es zu berücksichtigen.
 
 [h2]Fragen und Antworten[/h2]
+Q: Funktioniert es mit Build 42.22?
+A: Ja. Es funktioniert mit 42.21 und 42.22.
+
 Q: Kann ich es mitten in einem Spielstand hinzufügen oder entfernen?
 A: Ja. Inventory Doctor speichert nichts in deiner Welt: Es ist dafür gemacht, hinzugefügt zu werden, den kaputten Gegenstand zu reparieren und wieder entfernt zu werden.
 

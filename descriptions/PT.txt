@@ -38,6 +38,9 @@ Esta é uma ferramenta de depuração: eliminar ou repor itens não pode ser des
 Obviamente não consegui testar todos os cenários: há uma quantidade absurda de itens neste jogo, e isto sem sequer falar dos mods. Se algo não se comportar como esperado, uma reposição que corre mal, um item que devia ser assinalado e não é, ou qualquer outra coisa, diz-me na secção de comentários e farei o meu melhor para tratar disso.
 
 [h2]Perguntas e respostas[/h2]
+Q: Funciona com a build 42.22?
+A: Sim. Funciona com a 42.21 e a 42.22.
+
 Q: É seguro adicioná-lo ou removê-lo a meio de um jogo?
 A: Sim. O Inventory Doctor não guarda nada no teu mundo: foi pensado para ser adicionado, corrigir o item avariado e ser removido.
 

@@ -38,6 +38,9 @@ To narzędzie do debugowania: usunięcia ani zresetowania przedmiotów nie możn
 Oczywiście nie byłem w stanie przetestować każdego scenariusza: w tej grze jest absurdalna liczba przedmiotów, i to nie wspominając o modach. Jeśli coś nie działa zgodnie z oczekiwaniami, reset, który pójdzie źle, przedmiot, który powinien zostać oznaczony, a nie jest, czy cokolwiek innego, daj mi znać w komentarzach, a zrobię, co w mojej mocy, żeby to obsłużyć.
 
 [h2]Pytania i odpowiedzi[/h2]
+Q: Czy działa z buildem 42.22?
+A: Tak. Działa z wersjami 42.21 i 42.22.
+
 Q: Czy można go bezpiecznie dodać lub usunąć w trakcie zapisu gry?
 A: Tak. Inventory Doctor nic nie zapisuje w twoim świecie: jest zaprojektowany, by go dodać, naprawić zepsuty przedmiot i usunąć.
 

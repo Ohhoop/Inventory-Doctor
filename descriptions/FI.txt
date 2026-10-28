@@ -38,6 +38,9 @@ Tämä on vianetsintätyökalu: esineiden poistamista tai nollaamista ei voi per
 En tietenkään pystynyt testaamaan jokaista mahdollista tilannetta: tässä pelissä on naurettava määrä esineitä, eikä modeista ole edes vielä puhuttu. Jos jokin ei toimi odotetusti, nollaus menee pieleen, esine jää merkitsemättä vaikka pitäisi tai jotain muuta, kerro siitä kommenttiosiossa, niin teen parhaani sen käsittelemiseksi.
 
 [h2]Kysymyksiä ja vastauksia[/h2]
+Q: Toimiiko se buildissa 42.22?
+A: Kyllä. Se toimii versioissa 42.21 ja 42.22.
+
 Q: Voiko sen lisätä tai poistaa kesken tallennuksen?
 A: Kyllä. Inventory Doctor ei tallenna mitään maailmaasi: se on tehty lisättäväksi, korjaamaan rikkinäinen esine ja poistettavaksi.
 

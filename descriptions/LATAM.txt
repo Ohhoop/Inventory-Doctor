@@ -38,6 +38,9 @@ Esta es una herramienta de depuración: eliminar o restablecer ítems no se pued
 Obviamente no pude probar cada escenario posible: este juego tiene una cantidad ridícula de ítems, y eso sin siquiera hablar de los mods. Si algo no se comporta como debería, un restablecimiento que sale mal, un ítem que debería marcarse y no se marca, o cualquier otra cosa, avísame en la sección de comentarios y haré lo posible por resolverlo.
 
 [h2]Preguntas y respuestas[/h2]
+Q: ¿Funciona con la build 42.22?
+A: Sí. Funciona con la 42.21 y la 42.22.
+
 Q: ¿Es seguro agregarlo o quitarlo en una partida empezada?
 A: Sí. Inventory Doctor no guarda nada en tu mundo: está pensado para agregarlo, arreglar el ítem roto y quitarlo.
 

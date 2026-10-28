@@ -38,6 +38,9 @@ Ez egy hibakereső eszköz: a tárgyak törlése vagy visszaállítása nem vonh
 Természetesen nem tudtam minden egyes helyzetet kipróbálni: ebben a játékban nevetségesen sok tárgy van, és akkor a modokról még nem is beszéltünk. Ha valami nem a várt módon működik, egy visszaállítás rosszul sül el, egy tárgy, amelyet meg kellene jelölni, nincs megjelölve, vagy bármi más, kérlek, jelezd a hozzászólásokban, és mindent megteszek, hogy kezeljem.
 
 [h2]Kérdések és válaszok[/h2]
+Q: Működik a 42.22-es builddel?
+A: Igen. A 42.21-es és a 42.22-es verzióval is működik.
+
 Q: Biztonságos hozzáadni vagy eltávolítani egy mentés közben?
 A: Igen. Az Inventory Doctor semmit sem ment a világodba: arra készült, hogy hozzáadd, kijavítsa a hibás tárgyat, majd eltávolítsd.
 
